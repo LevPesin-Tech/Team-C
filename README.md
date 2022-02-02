@@ -140,13 +140,13 @@ Occupation: Undergrad/Grad Student
 
 - We will use Github for version control. Team-members will push their finished code to a branch to ensure the main branch remains bug-free.
 
-- If we need to meet outside of class we have found a mutually agreeable time at:
+- If we need to meet outside of class we have found a mutually agreeable time on:
 
-  - [https://www.when2meet.com/?14346069-lSoed](https://www.when2meet.com/?14346069-lSoed)
+  - Thursday
 
 - If we need to meet outside of class we will use the following tool/tech for meetings:
 
-  - Discord; Google Meet
+  - Discord
 
 - When we are not meeting together we will use the following tool/tech for communications:
 
