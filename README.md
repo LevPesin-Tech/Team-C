@@ -84,7 +84,7 @@ Occupation: Undergrad/Grad Student
 | --- | --- | --- | --- | --- |
 | Aditya | ~ | ~ | ~ | ~ |
 | Sara |  Swift, Objective-C | ~ | ~ | Parse |
-| Lev |  ~ | ~ | ~ | ~ |
+| Lev |  JAVA, C++ | ~ | ~ | ~ |
 | Phu |  ~ | ~ | ~ | ~ |
 | Saad |  JAVA, C++ | ~ | ~ | ~ |
 
