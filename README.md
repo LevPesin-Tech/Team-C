@@ -79,9 +79,9 @@ Occupation: Undergrad/Grad Student
 Mobile Application, provided both iOS using Xcode and Android using Android Studio
 
 
-## **Tech Stack**
+#### **Tech Stack**
 
-#User Stories
+##User Stories
 - Search for their textbooks
 - Pick their campus
 - Login and logout
