@@ -73,6 +73,7 @@ Occupation: Undergrad/Grad Student
 
 ## **Application Type**
 
+Mobile Application, provided both iOS using Xcode and Android using Android Studio
 
 
 ## **Tech Stack**
