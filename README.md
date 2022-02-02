@@ -21,24 +21,17 @@ Occupation: Undergrad/Grad Student
 #### Persona 1
 
 **Name:** Harry
-
 **Background:**
-
 - Graduate Computer Science student @ IIT
 - Prefers renting textbooks for short term usage
 - Financial difficulties
 - Needs to work to be able to afford his education and living expenses
 - Have a lot of unused course materials
 - Shipping and delivery services in his area are faulty
-
 **Demographics:**
-
 - Age: 24
-
 **Goal:** Find textbooks for a cheap price and can easily trade used materials.
-
 **How we can help** :
-
 - Provide a platform where Harry can find textbooks at the lowest price and not have to worry about shipping or shipping fees
   - Can pick-up or hand deliver
   - Price-checking
@@ -74,15 +67,14 @@ Occupation: Undergrad/Grad Student
 - Libraries
 - Professors
 
-## **Application Type**
+**Application Type**
 
-Mobile Application, provided on both an iOS and Android platform.
+Mobile Application, provided on an Android platform.
 
 
 ### **Tech Stack**
 
 **Client Tech**
-iOS: Xcode written in Objective-C
 Android: Android Studio writen in Java
 
 **Server Tech**
@@ -92,14 +84,14 @@ Parse Platform
 | **Member** | **Languages** | **FE frameworks** | **BE frameworks** | **Databases** |
 | --- | --- | --- | --- | --- |
 | Aditya | Java, Python, C | ~ | ~ | ~ |
-| Sara |  Swift, Objective-C | ~ | ~ | Parse |
+| Sara |  Swift, Objective-C, Java | Gradle | ~ | Parse |
 | Lev |  Java, Python, C++ | ~ | ~ | Parse |
 | Phu |  Java, Python | ~ | ~ | ~ |
 | Saad |  JAVA, C++ | ~ | ~ | ~ |
 | Michael| C++ | ~ | ~ |
 
 
-## **Top Application Capabilities (name at least 5)**
+## **Top Application Capabilities**
 
 1. View available books to rent or purchase on your campus and nearby campuses
      - filter by price, condition, class, rent or buy
@@ -126,11 +118,11 @@ Parse Platform
 
 ### ** Scenario #1**
 
-Samuel is a hard-working 24 year old, full-time software programmer at a big corporation in downtown Chicago. He finally got his vacation days and booked a flight to Florida for a week. However, he needs to find someone to take care of his two dogs. Samuel went to the App Store and found Petbarn. Now, he can safely travel with his friends without worrying about his pets being lonely and starving at home.
+Ashley is an IIT freshman from Kansas. She is really excited to start her college journey but the book-buying process is stressing her out. She needs many textbooks for her new classes, however, she doesn’t know the best way to get them. Textbooks from the publishers are very expensive and she doesn’t have any financial aid to cover these expenses. That is when she decided to find a better option. Her new friends recommended **app name*. After she registered, she was able to find all of her textbooks on sale on IIT campus! These textbooks were in great condition and very affordable. Ashley made new friends, while purchasing these books. She is very relieved and will only use **app name* moving forward. 
 
 ### ** Scenario #2**
 
-~
+Harry is an ambitious 24-year-old college student who is struggling to make ends meet. He works a part-time job at Starbucks and takes care of his 2 children. With the money he makes at his job, he can barely afford to put food on the table, let alone pay for brand new college textbooks. A friend suggests Harry buy used textbooks from fellow college students, but Harry is having trouble finding the textbook he needs. That is, until a student suggests an app designed to help students buy, sell and rent used textbooks. Harry downloads the app and immediately sells his old books. With the money he made, Harry was able to buy his used textbooks at no out-of-pocket cost. Download this app now.
 
 ##
 
@@ -151,7 +143,7 @@ Samuel is a hard-working 24 year old, full-time software programmer at a big cor
 
 - If we need to meet outside of class we have found a mutually agreeable time on:
 
-  - Thursday
+  - Thursday at 1PM
 
 - If we need to meet outside of class we will use the following tool/tech for meetings:
 
