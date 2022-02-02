@@ -76,63 +76,54 @@ Occupation: Undergrad/Grad Student
 
 ## **Application Type**
 
-Mobile Application, providing both iOS (developed using Xcode) and Android (developed using Android Studio)
+Mobile Application, provided on both an iOS and Android platform.
 
 
-#### **Tech Stack**
-
+### **Tech Stack**
 User Stories:
-- Search for their textbooks
-- Pick their campus
-- Login and logout
-- Sort/filter search results
-- Pick payment options
-- Rate buyer/seller
-- Upload textbooks and price-points manually
-- Preview material before buying
-- Chat with seller
-- Map with directions to get to pick-up/drop-off location
-- Schedule delivery
-- Customer support
 
-#### Client Tech 
 
-#### Server Tech
+### **Client Tech**
+iOS: Xcode written in Objective-C
+Android: Android Studio writen in Java
+
+### **Server Tech**
 Parse Platform
+
 
 | **Member** | **Languages** | **FE frameworks** | **BE frameworks** | **Databases** |
 | --- | --- | --- | --- | --- |
 | Aditya | Java, Python, C | ~ | ~ | ~ |
 | Sara |  Swift, Objective-C | ~ | ~ | Parse |
-| Lev |  Java, Python, C++ | ~ | ~ | ~ |
+| Lev |  Java, Python, C++ | ~ | ~ | Parse |
 | Phu |  Java, Python | ~ | ~ | ~ |
 | Saad |  JAVA, C++ | ~ | ~ | ~ |
-| Michael| ~ | ~ | ~ |
-
-### **Client Tech**
-
-
-### **Server Tech**
+| Michael| C++ | ~ | ~ |
 
 
 ## **Top Application Capabilities (name at least 5)**
 
-1. View available books to rent or purchase on your campus
+1. View available books to rent or purchase on your campus and nearby campuses
      - filter by price, condition, class, rent or buy
-2. View available books at nearby campuses
      - limited to maximum 25 mile radius
-3. Post textbooks 
+2. Post textbooks 
+    -Preview material before buying
+    -Chat with seller
+    -Upload textbook selling post and pricing
 4. Misconduct reporting system
-5. User authentication
+    -Customer Service
+4. User authentication
      - OAuth maybe? require hawk.iit.edu / iit.edu email
-6. Pick-up and drop-off. Allow temporary leave for breaktime.
+5. Pick-up and drop-off. Allow temporary leave for breaktime.
      - Map to see where textbook should be collected or dropped off
      - System to allow both parties to agree on a time and place
      - Must arrive within certain time of pick-up/drop-off (~10min)
      - Options to allow annonymous transactions
      - Options to allow contactless transactions
+6. Rate buyer/seller
 
-## **Top Two to Three Scenarios**
+
+## **Top Two Scenarios**
 
 ### **Your Scenario #1**
 
