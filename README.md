@@ -83,6 +83,7 @@ Android: Android Studio writen in Java
 Parse Platform
 
 
+
 | **Member** | **Languages** | **FE frameworks** | **BE frameworks** | **Databases** |
 | --- | --- | --- | --- | --- |
 | Aditya | Java, Python, C | ~ | ~ | ~ |
