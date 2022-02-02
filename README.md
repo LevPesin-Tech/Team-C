@@ -82,7 +82,7 @@ Occupation: Undergrad/Grad Student
 
 | **Member** | **Languages** | **FE frameworks** | **BE frameworks** | **Databases** |
 | --- | --- | --- | --- | --- |
-| Aditya | ~ | ~ | ~ | ~ |
+| Aditya | Java, Python, C | ~ | ~ | ~ |
 | Sara |  Swift, Objective-C | ~ | ~ | Parse |
 | Lev |  Java, Python, C++ | ~ | ~ | ~ |
 | Phu |  Java, Python | ~ | ~ | ~ |
