@@ -84,7 +84,7 @@ Occupation: Undergrad/Grad Student
 | --- | --- | --- | --- | --- |
 | Aditya | ~ | ~ | ~ | ~ |
 | Sara |  Swift, Objective-C | ~ | ~ | Parse |
-| Lev |  JAVA, C++ | ~ | ~ | ~ |
+| Lev |  ~ | ~ | ~ | ~ |
 | Phu |  ~ | ~ | ~ | ~ |
 | Saad |  JAVA, C++ | ~ | ~ | ~ |
 
@@ -130,7 +130,7 @@ Occupation: Undergrad/Grad Student
 
 | **Name** | **Location** | **Time zone offset from Chicago (Chicago is 0 offset)** |
 | --- | --- | --- |
-| Aditya Meka | ~ | ~ |
+| Aditya Meka | Chicago, IL (On Campus, Online) | 0 |
 | Sara Fryzlewicz | Chicago, IL (On Campus, Online) | 0 |
 | Lev Pesin | Chicago, IL | 0 |
 | Phu Gia Trinh | Chicago, IL (On Campus, Online) | 0 |
