@@ -94,12 +94,12 @@ Parse Platform
      - filter by price, condition, class, rent or buy
      - limited to maximum 25 mile radius
 2. Post textbooks 
-    -Preview material before buying
-    -Chat with seller
-    -Upload textbook selling post and pricing
-4. Misconduct reporting system
-    -Customer Service
-    -Return and refund options
+    - Preview material before buying
+    - Chat with seller
+    - Upload textbook selling post and pricing
+3. Misconduct reporting system
+    - Customer Service
+    - Return and refund options
 4. User authentication
      - OAuth maybe? require hawk.iit.edu / iit.edu email
 5. Pick-up and drop-off. Allow temporary leave for breaktime.
