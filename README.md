@@ -76,12 +76,12 @@ Occupation: Undergrad/Grad Student
 
 ## **Application Type**
 
-Mobile Application, provided both iOS using Xcode and Android using Android Studio
+Mobile Application, providing both iOS (developed using Xcode) and Android (developed using Android Studio)
 
 
 #### **Tech Stack**
 
-##User Stories
+User Stories:
 - Search for their textbooks
 - Pick their campus
 - Login and logout
