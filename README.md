@@ -31,7 +31,9 @@ Occupation: Undergrad/Grad Student
 - Shipping and delivery services in his area are faulty
 **Demographics:**
 - Age: 24
+
 **Goal:** Find textbooks for a cheap price and can easily trade used materials.
+
 **How we can help** :
 - Provide a platform where Harry can find textbooks at the lowest price and not have to worry about shipping or shipping fees
   - Can pick-up or hand deliver
@@ -49,7 +51,9 @@ Occupation: Undergrad/Grad Student
 
 **Demographics:**
 - Age: 18
+
 **Goal:** Find a textbook in their area with a convenient and simple pick-up.
+
 **How we can help: **
 - Offer safe and student-friendly textbook handoff options with a map detailing the location of trade and how to get there from where you are
   - User-friendly
@@ -94,12 +98,12 @@ Parse Platform
      - filter by price, condition, class, rent or buy
      - limited to maximum 25 mile radius
 2. Post textbooks 
-    - Preview material before buying
-    - Chat with seller
-    - Upload textbook selling post and pricing
-3. Misconduct reporting system
-    - Customer Service
-    - Return and refund options
+    -Preview material before buying
+    -Chat with seller
+    -Upload textbook selling post and pricing
+4. Misconduct reporting system
+    -Customer Service
+    -Return and refund options
 4. User authentication
      - OAuth maybe? require hawk.iit.edu / iit.edu email
 5. Pick-up and drop-off. Allow temporary leave for breaktime.
