@@ -59,7 +59,7 @@ Occupation: Undergrad/Grad Student
 
 **Goal:** Find a textbook in their area with a convenient and simple pick-up.
 
-**How we can help** :
+**How we can help: **
 
 - Offer safe and student-friendly textbook handoff options with a map detailing the location of trade and how to get there from where you are
   - User-friendly
@@ -80,14 +80,12 @@ Mobile Application, provided on both an iOS and Android platform.
 
 
 ### **Tech Stack**
-User Stories:
 
-
-### **Client Tech**
+**Client Tech**
 iOS: Xcode written in Objective-C
 Android: Android Studio writen in Java
 
-### **Server Tech**
+**Server Tech**
 Parse Platform
 
 
@@ -112,6 +110,7 @@ Parse Platform
     -Upload textbook selling post and pricing
 4. Misconduct reporting system
     -Customer Service
+    -Return and refund options
 4. User authentication
      - OAuth maybe? require hawk.iit.edu / iit.edu email
 5. Pick-up and drop-off. Allow temporary leave for breaktime.
@@ -125,14 +124,11 @@ Parse Platform
 
 ## **Top Two Scenarios**
 
-### **Your Scenario #1**
+### ** Scenario #1**
 
 Samuel is a hard-working 24 year old, full-time software programmer at a big corporation in downtown Chicago. He finally got his vacation days and booked a flight to Florida for a week. However, he needs to find someone to take care of his two dogs. Samuel went to the App Store and found Petbarn. Now, he can safely travel with his friends without worrying about his pets being lonely and starving at home.
 
-### **Your Scenario #2**
-
-~
-### **Your Scenario #3**
+### ** Scenario #2**
 
 ~
 
