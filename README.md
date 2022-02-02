@@ -78,7 +78,7 @@ Mobile Application, provided both iOS using Xcode and Android using Android Stud
 
 ## **Tech Stack**
 
-#User Stories
+**User Stories** :
 -Search for their textbooks
 -Pick their campus
 -Login and logout
