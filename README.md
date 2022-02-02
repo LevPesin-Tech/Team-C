@@ -136,7 +136,7 @@ Parse Platform
 
 ### **Your Scenario #1**
 
-~
+Samuel is a hard-working 24 year old, full-time software programmer at a big corporation in downtown Chicago. He finally got his vacation days and booked a flight to Florida for a week. However, he needs to find someone to take care of his two dogs. Samuel went to the App Store and found Petbarn. Now, he can safely travel with his friends without worrying about his pets being lonely and starving at home.
 
 ### **Your Scenario #2**
 
