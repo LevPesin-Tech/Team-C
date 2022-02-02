@@ -132,8 +132,8 @@ Occupation: Undergrad/Grad Student
 | --- | --- | --- |
 | Aditya Meka | ~ | ~ |
 | Sara Fryzlewicz | Chicago, IL (On Campus, Online) | 0 |
-| Lev Pesin | Chicago, IL (Online) | 0 |
-| Phu Gia Trinh | ~ | ~ |
+| Lev Pesin | Chicago, IL | 0 |
+| Phu Gia Trinh | Chicago, IL (On Campus, Online | 0 |
 | Saad Raees | Chicago, IL (On Campus, Online) | 0 |
 
 ## **Team Working Agreement**
