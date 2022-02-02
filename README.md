@@ -70,6 +70,9 @@ Occupation: Undergrad/Grad Student
 ## Other Customers and Stakeholders ##
 
 - School Administration and Staff.
+- Publishers and textbook sellers
+- Libraries
+- Professors
 
 ## **Application Type**
 
@@ -78,7 +81,7 @@ Mobile Application, provided both iOS using Xcode and Android using Android Stud
 
 ## **Tech Stack**
 
-**User Stories** :
+#User Stories
 -Search for their textbooks
 -Pick their campus
 -Login and logout
