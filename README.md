@@ -68,12 +68,11 @@ Occupation: Undergrad/Grad Student
 - Libraries
 - Professors
 
+## Tech Stack ##
+
 **Application Type**
 
 Mobile Application, provided on an Android platform.
-
-
-### **Tech Stack**
 
 **Client Tech**
 Android: Android Studio writen in Java
