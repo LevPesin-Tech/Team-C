@@ -86,7 +86,7 @@ Occupation: Undergrad/Grad Student
 | Sara |  Swift, Objective-C | ~ | ~ | Parse |
 | Lev |  ~ | ~ | ~ | ~ |
 | Phu |  ~ | ~ | ~ | ~ |
-| Saad |  ~ | ~ | ~ | ~ |
+| Saad |  JAVA, C++ | ~ | ~ | ~ |
 
 ### **Client Tech**
 
@@ -134,7 +134,7 @@ Occupation: Undergrad/Grad Student
 | Sara Fryzlewicz | Chicago, IL (On Campus, Online) | 0 |
 | Lev Pesin | ~ | ~ |
 | Phu Gia Trinh | ~ | ~ |
-| Saad Raees | ~ | ~ |
+| Saad Raees | Chicago, IL (On Campus, Online) | 0 |
 
 ## **Team Working Agreement**
 
