@@ -34,7 +34,7 @@ Occupation: Undergrad/Grad Student
 
 **Goal:** Find textbooks for a cheap price and can easily trade used materials.
 
-**How we can help** :
+**How we can help:**
 - Provide a platform where Harry can find textbooks at the lowest price and not have to worry about shipping or shipping fees
   - Can pick-up or hand deliver
   - Price-checking
@@ -54,7 +54,7 @@ Occupation: Undergrad/Grad Student
 
 **Goal:** Find a textbook in their area with a convenient and simple pick-up.
 
-**How we can help: **
+**How we can help:**
 - Offer safe and student-friendly textbook handoff options with a map detailing the location of trade and how to get there from where you are
   - User-friendly
   - Can pick-up or deliver
@@ -75,9 +75,11 @@ Occupation: Undergrad/Grad Student
 Mobile Application, provided on an Android platform.
 
 **Client Tech**
+
 Android: Android Studio writen in Java
 
 **Server Tech**
+
 Parse Platform
 
 
