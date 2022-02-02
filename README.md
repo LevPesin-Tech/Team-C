@@ -97,8 +97,8 @@ Parse Platform
 ## **Top Application Capabilities**
 
 1. View available books to rent or purchase on your campus and nearby campuses
-     - filter by price, condition, class, rent or buy
-     - limited to maximum 25 mile radius
+     - Filter by price, condition, class, rent or buy
+     - Limited to maximum 25 mile radius
 2. Post textbooks 
     -Preview material before buying
     -Chat with seller
