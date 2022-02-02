@@ -21,6 +21,7 @@ Occupation: Undergrad/Grad Student
 #### Persona 1
 
 **Name:** Harry
+
 **Background:**
 - Graduate Computer Science student @ IIT
 - Prefers renting textbooks for short term usage
@@ -47,13 +48,9 @@ Occupation: Undergrad/Grad Student
 - Lives On-Campus
 
 **Demographics:**
-
 - Age: 18
-
 **Goal:** Find a textbook in their area with a convenient and simple pick-up.
-
 **How we can help: **
-
 - Offer safe and student-friendly textbook handoff options with a map detailing the location of trade and how to get there from where you are
   - User-friendly
   - Can pick-up or deliver
