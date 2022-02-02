@@ -136,7 +136,7 @@ Occupation: Undergrad/Grad Student
 | Lev Pesin | Chicago, IL | 0 |
 | Phu Gia Trinh | Chicago, IL (On Campus, Online) | 0 |
 | Saad Raees | Chicago, IL (On Campus, Online) | 0 |
-| Michael Acosta | | |
+| Michael Acosta | Chicago, IL (On Campus, Online) | 0 |
 
 ## **Team Working Agreement**
 
