@@ -78,7 +78,19 @@ Mobile Application, provided both iOS using Xcode and Android using Android Stud
 
 ## **Tech Stack**
 
-
+#User Stories
+-Search for their textbooks
+-Pick their campus
+-Login and logout
+-Sort/filter search results
+-Pick payment options
+-Rate buyer/seller
+-Upload textbooks and price-points manually
+-Preview material before buying
+-Chat with seller
+-Map with directions to get to pick-up/drop-off location
+-Schedule delivery
+-Customer support
 
 
 | **Member** | **Languages** | **FE frameworks** | **BE frameworks** | **Databases** |
