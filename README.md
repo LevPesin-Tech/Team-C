@@ -140,9 +140,9 @@ Harry is an ambitious 24-year-old college student who is struggling to make ends
 | Saad Raees | Chicago, IL (On Campus, Online) | 0 |
 | Michael Acosta | Chicago, IL (On Campus, Online) | 0 |
 
-
-| **Name** | **Product Lead** |
-| --- | Week 1 | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 | Week 9 | Week 10 | Week 11 | Week 12 | Week 13 | Week 13 |
+### **Project Leads**
+| **Name** | **Week 1** | **Week 2** | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 | Week 9 | Week 10 | Week 11 | Week 12 | Week 13 | Week 13 |
+| --- |  --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Aditya Meka | | | | | | | | | | | | | | |
 | Sara Fryzlewicz | | | | X | | | | | | | | | | |
 | Lev Pesin | X | | X | | | | | | | | | | | |
