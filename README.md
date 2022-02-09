@@ -141,14 +141,14 @@ Harry is an ambitious 24-year-old college student who is struggling to make ends
 | Michael Acosta | Chicago, IL (On Campus, Online) | 0 |
 
 ### **Project Leads**
-| **Name** | **Week 1** | **Week 2** | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 | Week 9 | Week 10 | Week 11 | Week 12 | Week 13 | Week 13 |
-| --- |  --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Aditya Meka | |X| | | | | | X | | | | | | |
-| Sara Fryzlewicz | | | X |  | | | | | X | | | | | |
-| Lev Pesin | X | | | | | | X | | | | | | | |
-| Phu Gia Trinh | | | | | | X | | | | | | X | | |
-| Saad Raees | | | | X | | | | | | X | | | | |
-| Michael Acosta | | | | | X | | | | | | X | | | |
+| **Name** | **Week 1** | **Week 2** | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 | Week 9 | Week 10 | Week 11 | Week 12 |
+| --- |  --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Aditya Meka | |X| | | | | | X | | | | |
+| Sara Fryzlewicz | | | X |  | | | | | X | | | |
+| Lev Pesin | X | | | | | | X | | | | | |
+| Phu Gia Trinh | | | | | | X | | | | | | X |
+| Saad Raees | | | | X | | | | | | X | | |
+| Michael Acosta | | | | | X | | | | | | X | |
 
 ## **Team Working Agreement**
 
