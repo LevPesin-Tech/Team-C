@@ -22,6 +22,10 @@
 
 
 ## Week 6 ##
+- Populate stories for scenario #1
+- Tag user stories for scenario #1
+- Make sure you are doing just enough design for
+
 
 ## Week 7 ##
 
