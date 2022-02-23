@@ -145,8 +145,8 @@ Harry is an ambitious 24-year-old college student who is struggling to make ends
 | --- |  --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Aditya Meka | |X| | | | | | X | | | | |
 | Sara Fryzlewicz | | | X |  | | | | | X | | | |
-| Lev Pesin | X | | | | | X | | | | | | |
-| Phu Gia Trinh | | | | | | X | | | | | | X |
+| Lev Pesin | X | | | | X | | | | | | | |
+| Phu Gia Trinh | | | | | | | X | | | | | X |
 | Saad Raees | | | | X | | | | | | X | | |
 | Michael Acosta | | | | | | x | | | | | X | |
 
