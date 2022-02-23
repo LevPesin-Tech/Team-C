@@ -28,6 +28,9 @@
 
 
 ## Week 7 ##
+- Break work down to so everyone is owning items on the board
+- Decide how to break work up (front, data and backend or whatever makes sense)
+- Look at how those with the most experiences could conduct quick tutorials to help others get up to speed
 
 ## Week 8 ##
 
