@@ -1,0 +1,191 @@
+Index: .idea/gradle.xml
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+deleted file mode 100644
+--- a/.idea/gradle.xml	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
++++ /dev/null	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
+@@ -1,20 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="GradleMigrationSettings" migrationVersion="1" />
+-  <component name="GradleSettings">
+-    <option name="linkedExternalProjectsSettings">
+-      <GradleProjectSettings>
+-        <option name="testRunner" value="GRADLE" />
+-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="modules">
+-          <set>
+-            <option value="$PROJECT_DIR$" />
+-            <option value="$PROJECT_DIR$/app" />
+-          </set>
+-        </option>
+-        <option name="resolveModulePerSourceSet" value="false" />
+-      </GradleProjectSettings>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
++++ /dev/null	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
+@@ -1,16 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="DesignSurface">
+-    <option name="filePathToZoomLevelMap">
+-      <map>
+-        <entry key="..\:/Users/phupr/StudioProjects/Team-C/FoundIt/app/src/main/res/layout/activity_main.xml" value="0.2" />
+-      </map>
+-    </option>
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/build/classes" />
+-  </component>
+-  <component name="ProjectType">
+-    <option name="id" value="Android" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/modules/FoundIt.iml
+===================================================================
+diff --git a/.idea/modules/FoundIt.iml b/.idea/modules/FoundIt.iml
+deleted file mode 100644
+--- a/.idea/modules/FoundIt.iml	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
++++ /dev/null	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
+@@ -1,18 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module external.linked.project.id=":" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+-  <component name="FacetManager">
+-    <facet type="android-gradle" name="Android-Gradle">
+-      <configuration>
+-        <option name="GRADLE_PROJECT_PATH" value=":" />
+-        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" />
+-        <option name="LAST_KNOWN_AGP_VERSION" />
+-      </configuration>
+-    </facet>
+-  </component>
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$/../.." />
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/compiler.xml
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+deleted file mode 100644
+--- a/.idea/compiler.xml	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
++++ /dev/null	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CompilerConfiguration">
+-    <bytecodeTargetLevel target="11" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
++++ /dev/null	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
++++ /dev/null	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: .idea/jarRepositories.xml
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+deleted file mode 100644
+--- a/.idea/jarRepositories.xml	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
++++ /dev/null	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
+@@ -1,25 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RemoteRepositoriesConfiguration">
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Maven Central repository" />
+-      <option name="url" value="https://repo1.maven.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="jboss.community" />
+-      <option name="name" value="JBoss Community repository" />
+-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="BintrayJCenter" />
+-      <option name="name" value="BintrayJCenter" />
+-      <option name="url" value="https://jcenter.bintray.com/" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="Google" />
+-      <option name="name" value="Google" />
+-      <option name="url" value="https://dl.google.com/dl/android/maven2/" />
+-    </remote-repository>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
++++ /dev/null	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Found_It.iml" filepath="$PROJECT_DIR$/.idea/modules/Found_It.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Found_It.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Found_It.app.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: local.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>## This file is automatically generated by Android Studio.\r\n# Do not modify this file -- YOUR CHANGES WILL BE ERASED!\r\n#\r\n# This file should *NOT* be checked into Version Control Systems,\r\n# as it contains information specific to your local configuration.\r\n#\r\n# Location of the SDK. This is only used by Gradle.\r\n# For customization when using a Version Control System, please read the\r\n# header note.\r\nsdk.dir=C\\:\\\\Users\\\\Saad\\\\AppData\\\\Local\\\\Android\\\\Sdk
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/local.properties b/local.properties
+--- a/local.properties	(revision fea3c73ba943462232c5556bd67d19cb061e8517)
++++ b/local.properties	(date 1645645979156)
+@@ -1,10 +1,8 @@
+-## This file is automatically generated by Android Studio.
+-# Do not modify this file -- YOUR CHANGES WILL BE ERASED!
+-#
+-# This file should *NOT* be checked into Version Control Systems,
++## This file must *NOT* be checked into Version Control Systems,
+ # as it contains information specific to your local configuration.
+ #
+ # Location of the SDK. This is only used by Gradle.
+ # For customization when using a Version Control System, please read the
+ # header note.
+-sdk.dir=C\:\\Users\\Saad\\AppData\\Local\\Android\\Sdk
+\ No newline at end of file
++#Wed Feb 23 13:52:59 CST 2022
++sdk.dir=C\:\\Users\\phupr\\AppData\\Local\\Android\\Sdk
