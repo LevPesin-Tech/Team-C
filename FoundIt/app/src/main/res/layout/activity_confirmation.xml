@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/congratbackground">
+
+
+    <TextView
+        android:id="@+id/thankstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You!"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkImg" />
+
+    <TextView
+        android:id="@+id/messagetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_message"
+        android:textStyle="bold"
+        android:textColor="#000004"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/thankstxt" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/checkImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#28D280"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="90dp"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:srcCompat="@drawable/ic_checkmark" />
+
+    <Button
+        android:id="@+id/returnBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to main menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messagetxt"
+        android:layout_marginTop="60dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

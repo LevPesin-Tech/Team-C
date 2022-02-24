@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/phupr/StudioProjects/Team-C/FoundIt/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/phupr/StudioProjects/Team-C/FoundIt/app/src/main/res/layout/activity_comfirmation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/phupr/StudioProjects/Team-C/FoundIt/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/phupr/StudioProjects/Team-C/FoundIt/app/src/main/res/layout/activity_main_menu.xml" value="0.12037037037037036" />
+        <entry key="..\:/Users/phupr/StudioProjects/Team-C/FoundIt/app/src/main/res/layout/activity_signup.xml" value="0.125" />
         <entry key="..\:/Users/phupr/StudioProjects/Team-C/FoundIt/app/src/main/res/layout/comfirmation.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/phupr/StudioProjects/Team-C/FoundIt/app/src/main/res/layout/main_menu.xml" value="0.14457831325301204" />
       </map>
