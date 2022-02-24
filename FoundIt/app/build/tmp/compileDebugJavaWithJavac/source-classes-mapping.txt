@@ -1,0 +1,4 @@
+com/example/foundit/MainActivity.java
+ com.example.foundit.MainActivity
+com/example/foundit/BuildConfig.java
+ com.example.foundit.BuildConfig

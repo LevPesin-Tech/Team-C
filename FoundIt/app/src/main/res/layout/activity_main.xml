@@ -6,22 +6,35 @@ xl<?xml version="1.0" encoding="utf-8"?>
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="353dp"
+        android:layout_height="259dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/LogoFirst" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="127dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="488dp"
+        android:text="LOGIN"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="212dp" />
+        android:id="@+id/signupButton"
+        android:layout_width="172dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginBottom="34dp"
+        android:text="SIGN-UP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"

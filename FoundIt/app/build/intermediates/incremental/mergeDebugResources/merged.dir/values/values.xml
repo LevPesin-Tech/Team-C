@@ -1053,12 +1053,9 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
-    <string name="hellotxt">Hello, User</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
-    <string name="histButton">Transaction\nHistory</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
-    <string name="listButton">Add Listing</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
     <string description="Description for the toggle to choose between AM and PM [CHAR_LIMIT=NONE] " name="material_clock_toggle_content_description">Select AM or PM</string>
     <string description="Description for button to switch to select the hour [CHAR_LIMIT=NONE]" name="material_hour_selection">Select hour</string>
@@ -1114,8 +1111,6 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="searchButton">Search</string>
-    <string name="search_button">Search</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -3029,9 +3024,6 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <style name="Circular">
-        <item name="cornerSize">50%</item>
-    </style>
     <style name="EmptyTheme"/>
     <style name="MaterialAlertDialog.MaterialComponents" parent="AlertDialog.AppCompat">
     <item name="android:layout">@layout/mtrl_alert_dialog</item>
@@ -3245,9 +3237,6 @@
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Holo.Spinner"/>
-    <style name="RoundCorner">
-        <item name="cornerSize">5%</item>
-    </style>
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="Base.DialogWindowTitle.AppCompat">
     </style>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="android:Widget">
