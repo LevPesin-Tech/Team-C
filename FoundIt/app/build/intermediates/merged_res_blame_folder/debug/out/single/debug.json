@@ -8,16 +8,16 @@
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-hdpi\\ic_checkmark.png"
     },
     {
-        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_account_circle.png.flat",
-        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_account_circle.png"
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_checkmark.png.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xhdpi\\ic_checkmark.png"
     },
     {
-        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_account_circle.png.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_account_circle.png"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -92,12 +92,12 @@
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_confirmation.xml.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\layout\\activity_confirmation.xml"
+    },
+    {
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_iitcampus.jpg.flat",

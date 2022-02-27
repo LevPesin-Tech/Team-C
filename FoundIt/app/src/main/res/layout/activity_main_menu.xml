@@ -4,7 +4,9 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6EB8D9">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#6EB8D9"
+    tools:context=".MainMenuActivity">
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/iitWallpaper"

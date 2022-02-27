@@ -11,7 +11,7 @@
 9-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:5:5-21:19
 12        android:allowBackup="true"
 12-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,20 +28,26 @@
 19        android:testOnly="true"
 20        android:theme="@style/Theme.FoundIt" >
 20-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:11:9-45
-21        <activity android:name="com.example.foundit.MainActivity" >
-21-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:12:9-18:20
+21        <activity android:name="com.example.foundit.MainActivity" />
+21-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:12:9-59
 21-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:14:17-69
-23-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:16:17-77
-25-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+22        <activity android:name="com.example.foundit.MainMenuActivity" />
+22-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:13:9-63
+22-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:13:19-51
+23        <activity android:name="com.example.foundit.ConfirmationActivity" >
+23-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:14:9-20:20
+23-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:14:19-55
+24            <intent-filter>
+24-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

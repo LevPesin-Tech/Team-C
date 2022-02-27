@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\phupr\.gradle\caches\transforms-3\d72db9baf2815663fa1a414d6d31557c\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\phupr\.gradle\caches\transforms-3\cb4ebb4a18f7f637455ff305b9100826\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\phupr\.gradle\caches\transforms-3\9293a2b13f76aabdcaaf323aa2afc7d3\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -37,25 +37,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\phupr\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\phupr\.gradle\caches\transforms-3\7cb88cc87b6fe65214964d6b83e27991\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\phupr\.gradle\caches\transforms-3\f4acdacb2c6ebb44c90de7f4cc0c380d\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\phupr\.gradle\caches\transforms-3\2ab2e716430ad346fcabee100c1ea1ad\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:1-23:12
 		INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\phupr\.gradle\caches\transforms-3\d72db9baf2815663fa1a414d6d31557c\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\phupr\.gradle\caches\transforms-3\d72db9baf2815663fa1a414d6d31557c\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\phupr\.gradle\caches\transforms-3\cb4ebb4a18f7f637455ff305b9100826\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -79,19 +79,27 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ph
 	android:theme
 		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:11:9-45
 activity#com.example.foundit.MainActivity
-ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:12:9-59
 	android:name
 		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:12:19-47
+activity#com.example.foundit.MainMenuActivity
+ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:13:9-63
+	android:name
+		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:13:19-51
+activity#com.example.foundit.ConfirmationActivity
+ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:14:19-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:18:27-74
 uses-sdk
 INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
