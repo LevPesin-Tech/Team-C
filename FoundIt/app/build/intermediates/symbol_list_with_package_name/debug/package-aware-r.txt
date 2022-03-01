@@ -1778,6 +1778,7 @@ id blocking
 id bottom
 id bounce
 id button
+id button2
 id buttonPanel
 id cache_measures
 id campusView
@@ -1843,10 +1844,15 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextTextPersonName
 id editTextTextPersonName2
 id editTextTextPersonName3
 id editTextTextPersonName4
 id editTextTextPersonName5
+id editTextTextPersonName6
+id editTextTextPersonName7
+id editTextTextPersonName8
+id editTextTextPersonName9
 id edit_query
 id elastic
 id emailView
@@ -1932,7 +1938,6 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id message
-id messagetxt
 id middle
 id mini
 id month_grid
@@ -2088,7 +2093,9 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id textView3
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2326,6 +2333,7 @@ string hellotxt
 string hide_bottom_view_on_scroll_behavior
 string histButton
 string icon_content_description
+string info
 string item_view_role_description
 string listButton
 string material_clock_display_divider

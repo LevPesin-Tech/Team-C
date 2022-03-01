@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6EB8D9"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="353dp"
         android:layout_height="259dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,21 +21,21 @@
         android:id="@+id/loginButton"
         android:layout_width="127dp"
         android:layout_height="57dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="488dp"
+        android:layout_marginTop="360dp"
         android:text="LOGIN"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/signupButton"
+        app:layout_constraintStart_toStartOf="@+id/signupButton"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/signupButton"
         android:layout_width="172dp"
         android:layout_height="96dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginBottom="420dp"
         android:onClick="Signup"
         android:text="SIGN-UP"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

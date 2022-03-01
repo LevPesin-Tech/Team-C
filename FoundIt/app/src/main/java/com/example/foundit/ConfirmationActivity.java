@@ -10,21 +10,17 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ConfirmationActivity extends AppCompatActivity {
-    private Button returnBttn;
+
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirmation);
 
-        returnBttn = findViewById(R.id.returnBttn);
 
-        returnBttn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(ConfirmationActivity.this, MainMenuActivity.class);
-                startActivity(intent);
-            }
-        });
+        };
+    public void ret(View v){
+        Intent i = new Intent(this, MainMenuActivity.class);
+        startActivity(i);
     }
-}
+    }
+
