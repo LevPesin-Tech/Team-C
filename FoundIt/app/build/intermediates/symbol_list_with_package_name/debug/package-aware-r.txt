@@ -50,6 +50,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array condition
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1688,6 +1689,7 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id AddBook
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -1775,8 +1777,7 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button2
-id button3
+id button
 id buttonPanel
 id cache_measures
 id campusView
@@ -1842,6 +1843,10 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextTextPersonName2
+id editTextTextPersonName3
+id editTextTextPersonName4
+id editTextTextPersonName5
 id edit_query
 id elastic
 id emailView
@@ -2042,6 +2047,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -2081,6 +2087,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2181,8 +2189,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_confirmation
+layout activity_listing_page
 layout activity_main
 layout activity_main_menu
+layout activity_sign_up
 layout activity_signup
 layout custom_dialog
 layout design_bottom_navigation_item

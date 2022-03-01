@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="condition">
+        <item>New Like</item>
+        <item>Good</item>
+        <item>Fair</item>
+        <item>Poor</item>
+    </string-array>
     <attr format="reference" name="animate_relativeTo"/>
     <attr format="reference" name="appBarLayoutStyle"/>
     <attr format="enum" name="arcMode">

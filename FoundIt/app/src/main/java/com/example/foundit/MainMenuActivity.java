@@ -1,5 +1,6 @@
 package com.example.foundit;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.View;
@@ -13,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.imageview.ShapeableImageView;
 
 public class MainMenuActivity extends AppCompatActivity {
-    private Button searchBttn, addListBttn, histBttn;
+    private Button searchBttn, histBttn;
     private ShapeableImageView iitWallpaper, userAvatar;
 
     @Override
@@ -30,12 +31,6 @@ public class MainMenuActivity extends AppCompatActivity {
             }
         });
 
-        addListBttn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(MainMenuActivity.this, "Add listing function coming soon...", Toast.LENGTH_SHORT).show();
-            }
-        });
 
         histBttn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,9 +56,13 @@ public class MainMenuActivity extends AppCompatActivity {
 
     private void initViews(){
         searchBttn = findViewById(R.id.searchBttn);
-        addListBttn = findViewById(R.id.addListBttn);
         histBttn = findViewById(R.id.histBttn);
         iitWallpaper = findViewById(R.id.iitWallpaper);
         userAvatar =  findViewById(R.id.userAvatar);
+    }
+
+    public void Listing(View v){
+        Intent i = new Intent(this, ConfirmationActivity.class);
+        startActivity(i);
     }
 }
