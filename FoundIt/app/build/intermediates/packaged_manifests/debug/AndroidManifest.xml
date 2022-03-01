@@ -19,8 +19,8 @@
         android:testOnly="true"
         android:theme="@style/Theme.FoundIt" >
         <activity android:name="com.example.foundit.MainActivity" />
-        <activity android:name="com.example.foundit.MainMenuActivity" />
-        <activity android:name="com.example.foundit.ConfirmationActivity" >
+        <activity android:name="com.example.foundit.ConfirmationActivity" />
+        <activity android:name="com.example.foundit.MainMenuActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

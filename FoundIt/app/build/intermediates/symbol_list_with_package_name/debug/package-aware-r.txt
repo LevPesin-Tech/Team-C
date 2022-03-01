@@ -1775,8 +1775,6 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button2
-id button3
 id buttonPanel
 id cache_measures
 id campusView
