@@ -62,7 +62,7 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     public void Listing(View v){
-        Intent i = new Intent(this, ConfirmationActivity.class);
+        Intent i = new Intent(this, ListingPage.class);
         startActivity(i);
     }
 }

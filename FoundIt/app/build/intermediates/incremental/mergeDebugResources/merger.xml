@@ -6386,12 +6386,12 @@
         <item name="cornerSize">50%</item>
     </style><style name="RoundCorner">
         <item name="cornerSize">5%</item>
-    </style></file><file path="C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Found It</string><string name="searchButton">Search</string><string name="listButton">Add Listing</string><string name="histButton">Transaction\nHistory</string><string name="hellotxt">Hello, User!</string><string name="confirm_message">The transaction has been successfully completed!\nYou will receive a confirmation email shortly.</string><string-array name="condition">
+    </style></file><file path="C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Found It</string><string name="searchButton">Search</string><string name="listButton">Add Listing</string><string name="histButton">Transaction\nHistory</string><string name="hellotxt">Hello, Bryan!</string><string name="confirm_message">Your book has been successfully posted!\nYou will receive a confirmation email shortly.</string><string-array name="condition">
         <item>New Like</item>
         <item>Good</item>
         <item>Fair</item>
         <item>Poor</item>
-    </string-array></file><file path="C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.FoundIt" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </string-array><string name="info">Title: JAVA ILLUMINATED\nAuthor: Julie Anderson\nISBN: 987654321\nPrice: $ 20\nCondition: Fair</string></file><file path="C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.FoundIt" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

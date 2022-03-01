@@ -28,21 +28,21 @@
 19        android:testOnly="true"
 20        android:theme="@style/Theme.FoundIt" >
 20-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:11:9-45
-21        <activity android:name="com.example.foundit.MainMenuActivity" />
-21-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:12:9-53
-21-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:12:19-51
-22        <activity android:name="com.example.foundit.ListingPage" />
-22-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:13:9-49
-22-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:13:19-46
-23        <activity android:name="com.example.foundit.MainActivity" />
-23-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:14:9-50
-23-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:14:19-47
-24        <activity android:name="com.example.foundit.ConfirmationActivity" />
-24-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:15:9-58
-24-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:15:19-55
-25        <activity android:name="com.example.foundit.SignUp" >
+21        <activity android:name="com.example.foundit.SignUp" />
+21-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:12:9-44
+21-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:12:19-41
+22        <activity android:name="com.example.foundit.ConfirmationActivity" />
+22-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:13:9-57
+22-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:13:19-55
+23        <activity android:name="com.example.foundit.ListingPage" />
+23-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:14:9-49
+23-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:14:19-46
+24        <activity android:name="com.example.foundit.MainMenuActivity" />
+24-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:15:9-54
+24-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:15:19-51
+25        <activity android:name="com.example.foundit.MainActivity" >
 25-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:16:9-23:20
-25-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:16:19-41
+25-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:16:19-47
 26            <intent-filter>
 26-->C:\Users\Saad\Documents\GitHub\FoundIt\app\src\main\AndroidManifest.xml:18:13-22:29
 27                <action android:name="android.intent.action.MAIN" />

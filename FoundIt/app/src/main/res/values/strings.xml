@@ -3,12 +3,14 @@
     <string name="searchButton">Search</string>
     <string name="listButton">Add Listing</string>
     <string name="histButton">Transaction\nHistory</string>
-    <string name="hellotxt">Hello, User!</string>
-    <string name="confirm_message">The transaction has been successfully completed!\nYou will receive a confirmation email shortly.</string>
+    <string name="hellotxt">Hello, Bryan!</string>
+    <string name="confirm_message">Your book has been successfully posted!\nYou will receive a confirmation email shortly.</string>
+    <string name="info">Title: JAVA ILLUMINATED\nAuthor: Julie Anderson\nISBN: 987654321\nPrice: $ 20\nCondition: Fair</string>
     <string-array name="condition">
         <item>New Like</item>
         <item>Good</item>
         <item>Fair</item>
         <item>Poor</item>
     </string-array>
+
 </resources>
