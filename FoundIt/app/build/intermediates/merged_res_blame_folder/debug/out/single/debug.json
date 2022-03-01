@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Saad\\Documents\\GitHub\\FoundIt\\app\\src\\main\\res\\drawable-mdpi\\ic_checkmark.png"
     },
     {
-        "merged": "C:\\Users\\Saad\\Documents\\GitHub\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_account_circle.png.flat",
-        "source": "C:\\Users\\Saad\\Documents\\GitHub\\FoundIt\\app\\src\\main\\res\\drawable-hdpi\\ic_account_circle.png"
-    },
-    {
         "merged": "C:\\Users\\Saad\\Documents\\GitHub\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Saad\\Documents\\GitHub\\FoundIt\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Saad\\Documents\\GitHub\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_account_circle.png.flat",
+        "source": "C:\\Users\\Saad\\Documents\\GitHub\\FoundIt\\app\\src\\main\\res\\drawable-hdpi\\ic_account_circle.png"
     },
     {
         "merged": "C:\\Users\\Saad\\Documents\\GitHub\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_checkmark.png.flat",
