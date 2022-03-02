@@ -6,7 +6,7 @@
     <string name="hellotxt">Hello, User!</string>
     <string name="confirm_message">The transaction has been successfully completed!\nYou will receive a confirmation email shortly.</string>
     <string-array name="condition">
-        <item>New Like</item>
+        <item>Like New</item>
         <item>Good</item>
         <item>Fair</item>
         <item>Poor</item>
