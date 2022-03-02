@@ -50,7 +50,6 @@
         android:layout_marginTop="373dp"
         android:background="#00BCD4"
         android:requiresFadingEdge="horizontal"
-        android:text="@string/info"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
