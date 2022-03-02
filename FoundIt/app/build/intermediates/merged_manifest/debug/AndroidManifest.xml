@@ -6,9 +6,13 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name="com.example.foundit.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -18,17 +22,29 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FoundIt" >
-        <activity android:name="com.example.foundit.SignUp" />
-        <activity android:name="com.example.foundit.ConfirmationActivity" />
-        <activity android:name="com.example.foundit.ListingPage" />
         <activity android:name="com.example.foundit.MainMenuActivity" />
-        <activity android:name="com.example.foundit.MainActivity" >
+        <activity android:name="com.example.foundit.ListingPage" />
+        <activity android:name="com.example.foundit.MainActivity" />
+        <activity android:name="com.example.foundit.ConfirmationActivity" />
+        <activity
+            android:name="com.example.foundit.SignUp"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/back4app_server_url" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/back4app_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/back4app_client_key" />
     </application>
 
 </manifest>
