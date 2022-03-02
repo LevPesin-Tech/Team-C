@@ -12,6 +12,6 @@
         <item>Poor</item>
     </string-array>
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
-    <string name="back4app_app_id">kzhofYkSfLE7RGysuplSUqsiUvSYUE3peOiZUPjb</string>
-    <string name="back4app_client_key">nuWPrbA7RCKOHt9YBu3L0BDfrTnTDHO3sRpFxvQM</string>
+    <string name="back4app_app_id">MMHqflrx7nVCs3B2vCWc1roX0cwQPNc7Sc81CUrT</string>
+    <string name="back4app_client_key">MBZPjC3xuxGiBZLAZCG7RY73tyU7RL9Oynyz8h85</string>
 </resources>
