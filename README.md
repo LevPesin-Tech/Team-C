@@ -131,7 +131,7 @@ Harry is an ambitious 24-year-old college student who is struggling to make ends
 
 ## **Implemented Walkthrough**
 
-Here's a walkthrough of implemented user stories. Depicted below is our first version of a user signing up to **Found It**, and a user posting a book listing on **Found It**
+Here's a walkthrough of implemented user stories. These videos depict our first version of **Found It**. Below, the top video shows a user signing up to, and the bottom video below shows a user posting a book listing.
 
 <img src='https://media.giphy.com/media/7MWCvdLBJQZH88v1MY/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='https://media.giphy.com/media/lgPcMg3Q7vxvmF3K6s/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
