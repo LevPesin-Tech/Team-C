@@ -7,15 +7,22 @@
     android:layout_height="match_parent"
     android:background="#6EB8D9"
     tools:context=".MainMenuActivity">
-
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/iitWallpaper"
-        android:layout_width="400dp"
-        android:layout_height="300dp"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/iitcampus" />
+        android:layout_marginTop="15dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iitWallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@mipmap/iitcampus" />
+    </RelativeLayout>
+
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/userAvatar"

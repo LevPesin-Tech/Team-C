@@ -7,6 +7,8 @@
     android:background="#6EB8D9"
     tools:context=".TransactionActivity">
 
+    <!-- TODO: Adding code to feed date, time, delivery options to spinners -->
+
     <Spinner
         android:id="@+id/handOffSpinner"
         android:layout_width="match_parent"
@@ -81,7 +83,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
         app:layout_constraintBottom_toTopOf="@id/deliverDaySpinner"
@@ -89,7 +91,16 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/checkoutTxt"
-        app:layout_constraintVertical_bias="0.078"></androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintVertical_bias="0.078">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/productRecView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!-- TODO: Adding code to feed product(s) to RecycleView -->
+
+
+    </RelativeLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/PaypalBttn"
@@ -110,12 +121,13 @@
         android:id="@+id/paypalImg"
         android:layout_width="250dp"
         android:layout_height="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PaypalBttn"
         app:srcCompat="@mipmap/paypal_used" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

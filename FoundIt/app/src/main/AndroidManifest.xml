@@ -14,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoundIt">
         <activity
+            android:name=".SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".TransactionActivity"
             android:exported="false" />
         <activity
