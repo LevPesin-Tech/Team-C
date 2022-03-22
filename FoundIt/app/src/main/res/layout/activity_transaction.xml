@@ -8,7 +8,16 @@
     tools:context=".TransactionActivity">
 
     <!-- TODO: Adding code to feed date, time, delivery options to spinners -->
-
+    <ImageButton
+        android:id="@+id/backBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="7dp"
+        android:backgroundTint="#6EB8D9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_arrow" />
     <Spinner
         android:id="@+id/handOffSpinner"
         android:layout_width="match_parent"
@@ -87,11 +96,10 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         app:layout_constraintBottom_toTopOf="@id/deliverDaySpinner"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/checkoutTxt"
-        app:layout_constraintVertical_bias="0.078">
+        android:layout_marginTop="5dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/productRecView"
@@ -105,7 +113,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/PaypalBttn"
         android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="80dp"
         android:backgroundTint="#ffcc00"
         android:drawableTop="@drawable/ic_paypal_logo_wine"

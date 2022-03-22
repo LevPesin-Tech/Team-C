@@ -7,87 +7,150 @@
     android:background="#6EB8D9"
     tools:context=".SignUp">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="354dp"
-        android:layout_height="216dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="16dp"
+    <ImageButton
+        android:id="@+id/backBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#6EB8D9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:onClick="back"
+        app:srcCompat="@drawable/ic_back_arrow" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="354dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backBttn"
         app:srcCompat="@drawable/logofirst" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/personNameEdt"
         android:layout_width="265dp"
         android:layout_height="45dp"
-        android:layout_marginTop="283dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Full Name"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/nameWarning" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="261dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="353dp"
+        android:id="@+id/institutionEdt"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Institution"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/institutionWarning" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="260dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="427dp"
+        android:id="@+id/emailAddressEdt"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/emailWarning" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
-        android:layout_width="260dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="498dp"
+        android:id="@+id/passwordEdt"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/emailAddressEdt"/>
 
     <EditText
-        android:id="@+id/editTextTextPersonName9"
-        android:layout_width="266dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="571dp"
+        android:id="@+id/rePasswordEdt"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Reenter Password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/rePasswordWarning"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="Menu"
+        android:onClick="signUp"
         android:text="SIGN UP"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintTop_toBottomOf="@id/rePasswordEdt" />
 
+    <TextView
+        android:id="@+id/nameWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="#FF0000"
+        app:layout_constraintStart_toStartOf="@+id/personNameEdt"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/institutionWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="#FF0000"
+        app:layout_constraintStart_toStartOf="@+id/institutionEdt"
+        app:layout_constraintTop_toBottomOf="@+id/personNameEdt"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/emailWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="#FF0000"
+        app:layout_constraintStart_toStartOf="@+id/emailAddressEdt"
+        app:layout_constraintTop_toBottomOf="@+id/institutionEdt"
+        tools:visibility="gone" />
+    <TextView
+        android:id="@+id/passwordWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="#FF0000"
+        app:layout_constraintStart_toStartOf="@+id/passwordEdt"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddressEdt"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/rePasswordWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="#FF0000"
+        app:layout_constraintStart_toStartOf="@+id/rePasswordEdt"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEdt"
+        tools:visibility="gone" />
 </androidx.constraintlayout.widget.ConstraintLayout>

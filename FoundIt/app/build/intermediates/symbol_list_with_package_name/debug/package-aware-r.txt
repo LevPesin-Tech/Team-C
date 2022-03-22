@@ -2162,6 +2162,7 @@ id textView
 id textView2
 id textView3
 id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2189,6 +2190,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id troublelogintxt
 id unchecked
 id uniform
 id unlabeled
@@ -2266,7 +2268,7 @@ layout abc_tooltip
 layout activity_confirmation
 layout activity_history
 layout activity_listing_page
-layout activity_main
+layout activity_log_in
 layout activity_main_menu
 layout activity_search
 layout activity_setting
