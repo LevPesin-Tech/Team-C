@@ -47,7 +47,8 @@
 ## Week 10 ##
 
 ## Week 11 ##
-
+- We are not doing innovation day (4/29) instead we are doing to Audience Choice Competition - pitch competition day on (4/22)
+- 
 ## Week 12 ##
 
 ## Week 13 ##
