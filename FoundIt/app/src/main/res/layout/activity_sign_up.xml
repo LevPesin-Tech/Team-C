@@ -16,7 +16,6 @@
         android:backgroundTint="#6EB8D9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="back"
         app:srcCompat="@drawable/ic_back_arrow" />
 
     <ImageView
@@ -90,10 +89,9 @@
         app:layout_constraintTop_toBottomOf="@id/rePasswordWarning"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signsignUpButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="signUp"
         android:text="SIGN UP"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

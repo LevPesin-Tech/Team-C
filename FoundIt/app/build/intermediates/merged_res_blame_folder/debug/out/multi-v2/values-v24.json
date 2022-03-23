@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\levpe\\Documents\\GitHub\\Team-CC\\FoundIt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\phupr\\.gradle\\caches\\transforms-3\\4ff7b89a1fb1aea3a45b1663b12515c4\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\levpe\\.gradle\\caches\\transforms-3\\4ff7b89a1fb1aea3a45b1663b12515c4\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\phupr\\.gradle\\caches\\transforms-3\\bfcbf161df86e8959e8196b0cb0afd0e\\transformed\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\levpe\\.gradle\\caches\\transforms-3\\bfcbf161df86e8959e8196b0cb0afd0e\\transformed\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
