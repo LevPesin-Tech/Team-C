@@ -61,9 +61,9 @@
 35-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:26:13-43
 36            android:exported="false" />
 36-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:27:13-37
-37        <activity android:name="com.example.foundit.MainActivity" />
-37-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:9-50
-37-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:19-47
+37        <activity android:name="com.example.foundit.MainMenuActivity" />
+37-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:9-54
+37-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:19-51
 38        <activity android:name="com.example.foundit.ListingPage" />
 38-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:29:9-49
 38-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:29:19-46
@@ -75,8 +75,8 @@
 40-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:31:19-41
 41        <activity
 41-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:32:9-40:20
-42            android:name="com.example.foundit.MainMenuActivity"
-42-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:33:13-45
+42            android:name="com.example.foundit.MainActivity"
+42-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:33:13-41
 43            android:exported="true" >
 43-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:34:13-36
 44            <intent-filter>

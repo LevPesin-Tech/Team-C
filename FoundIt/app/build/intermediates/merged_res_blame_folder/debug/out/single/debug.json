@@ -52,12 +52,12 @@
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_checkmark.png"
     },
     {
-        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_purchased.xml.flat",
-        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\layout\\fragment_purchased.xml"
-    },
-    {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_account_circle.png.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xhdpi\\ic_account_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_purchased.xml.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\layout\\fragment_purchased.xml"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_checkmark.xml.flat",

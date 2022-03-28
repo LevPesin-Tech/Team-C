@@ -25,12 +25,12 @@
         <activity
             android:name=".SearchActivity"
             android:exported="false" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainMenuActivity" />
         <activity android:name=".ListingPage" />
         <activity android:name=".ConfirmationActivity" />
         <activity android:name=".SignUp" />
         <activity
-            android:name=".MainMenuActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

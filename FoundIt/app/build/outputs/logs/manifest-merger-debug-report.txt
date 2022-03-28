@@ -134,10 +134,10 @@ ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidMani
 		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
 		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:26:13-43
-activity#com.example.foundit.MainActivity
-ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:9-50
+activity#com.example.foundit.MainMenuActivity
+ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:9-54
 	android:name
-		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:19-47
+		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:19-51
 activity#com.example.foundit.ListingPage
 ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:29:9-49
 	android:name
@@ -150,12 +150,12 @@ activity#com.example.foundit.SignUp
 ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:31:9-44
 	android:name
 		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:31:19-41
-activity#com.example.foundit.MainMenuActivity
+activity#com.example.foundit.MainActivity
 ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:32:9-40:20
 	android:exported
 		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:33:13-45
+		ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:33:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
