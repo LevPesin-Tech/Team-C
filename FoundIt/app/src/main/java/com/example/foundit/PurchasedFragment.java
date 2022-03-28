@@ -3,62 +3,47 @@ package com.example.foundit;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link PurchasedFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
+
 public class PurchasedFragment extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
 
     public PurchasedFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Purchased.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static PurchasedFragment newInstance(String param1, String param2) {
-        PurchasedFragment fragment = new PurchasedFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_purchased, container, false);
-    }
+                            Bundle savedInstanceState) {
+        ArrayList<Product> products = new ArrayList<>();
+        //TODO: add products from database to the arraylist for display
+        //Sample code below. Change it accordingly
+
+        products.add(new Product("title1","author1", "isbn1","seller1","condition1",0,"https://images.routledge.com/common/jackets/crclarge/978041547/9780415479554.jpg"));
+        products.add(new Product("title2","author2", "isbn2","seller2","condition2",1,"https://www.bookbaby.com/Images/textbook-thumb-ustrade.webp"));
+        products.add(new Product("title3","author3", "isbn3","seller3","condition3",2,"https://images-na.ssl-images-amazon.com/images/I/41tHpR-tJdL._SX352_BO1,204,203,200_.jpg"));
+        products.add(new Product("title4","author4", "isbn4","seller4","condition4",3,"https://www.appi.org/ProductImages/37150.jpg"));
+        products.add(new Product("title5","author5", "isbn5","seller5","condition5",4,"https://images-na.ssl-images-amazon.com/images/I/51TxS6AKzeL._SX258_BO1,204,203,200_.jpg"));
+
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.fragment_purchased, container, false);
+        RecyclerView purchasedView = view.findViewById(R.id.purchasedRecView);
+
+        RecViewAdapter adapter = new RecViewAdapter(view.getContext());
+        adapter.setProducts(products);
+
+        purchasedView.setAdapter(adapter);
+        purchasedView.setLayoutManager(new GridLayoutManager(this.getContext(), 2));
+        return view;
+   }
+
 }

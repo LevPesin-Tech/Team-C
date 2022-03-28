@@ -23,14 +23,46 @@
         android:id="@+id/backBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="18dp"
         app:layout_constraintEnd_toStartOf="@+id/histTxt"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="7dp"
+        android:layout_marginStart="1dp"
         android:backgroundTint="#6EB8D9"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_back_arrow" />
 
-    <!-- TODO: Adding code to feed fragments into the page -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/histTxt">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/purchasedtab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchased" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/soldtab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sold" />
+
+        />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

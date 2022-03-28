@@ -6,109 +6,109 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml
+8-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml
+9-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:5:5-79
-11-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:5:22-76
+11-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <application
-14-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:8:5-51:19
+14-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:8:5-51:19
 15        android:name="com.example.foundit.App"
-15-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:9:9-28
+15-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:9:9-28
 16        android:allowBackup="true"
-16-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:10:9-35
+16-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:10:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.7.0] C:\Users\levpe\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17-->[androidx.core:core:1.7.0] C:\Users\phupr\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 18        android:debuggable="true"
 19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:11:9-43
+19-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:11:9-43
 20        android:label="@string/app_name"
-20-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:12:9-41
+20-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:12:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:13:9-54
+21-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:13:9-54
 22        android:supportsRtl="true"
-22-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:14:9-35
+22-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:14:9-35
 23        android:testOnly="true"
 24        android:theme="@style/Theme.FoundIt" >
-24-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:15:9-45
+24-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:15:9-45
 25        <activity
-25-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:16:9-18:40
+25-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:16:9-18:40
 26            android:name="com.example.foundit.SettingActivity"
-26-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:17:13-44
+26-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:17:13-44
 27            android:exported="false" />
-27-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:18:13-37
+27-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:18:13-37
 28        <activity
-28-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:19:9-21:40
+28-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:19:9-21:40
 29            android:name="com.example.foundit.HistoryActivity"
-29-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:20:13-44
-30            android:exported="false" />
-30-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:21:13-37
+29-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:20:13-44
+30            android:exported="false" /> <!-- android:name=".HistoryActivity" -->
+30-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:21:13-37
 31        <activity
-31-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:22:9-24:40
+31-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:22:9-24:40
 32            android:name="com.example.foundit.TransactionActivity"
-32-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:23:13-48
+32-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:23:13-48
 33            android:exported="false" />
-33-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:24:13-37
+33-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:24:13-37
 34        <activity
-34-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:25:9-27:40
+34-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:25:9-27:40
 35            android:name="com.example.foundit.SearchActivity"
-35-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:26:13-43
+35-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:26:13-43
 36            android:exported="false" />
-36-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:27:13-37
-37        <activity android:name="com.example.foundit.MainMenuActivity" />
-37-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:28:9-54
-37-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:28:19-51
+36-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:27:13-37
+37        <activity android:name="com.example.foundit.MainActivity" />
+37-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:9-50
+37-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:28:19-47
 38        <activity android:name="com.example.foundit.ListingPage" />
-38-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:29:9-49
-38-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:29:19-46
+38-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:29:9-49
+38-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:29:19-46
 39        <activity android:name="com.example.foundit.ConfirmationActivity" />
-39-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:30:9-58
-39-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:30:19-55
+39-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:30:9-58
+39-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:30:19-55
 40        <activity android:name="com.example.foundit.SignUp" />
-40-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:31:9-43
-40-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:31:19-41
+40-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:31:9-44
+40-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:31:19-41
 41        <activity
-41-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:32:9-40:20
-42            android:name="com.example.foundit.MainActivity"
-42-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:33:13-41
+41-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:32:9-40:20
+42            android:name="com.example.foundit.MainMenuActivity"
+42-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:33:13-45
 43            android:exported="true" >
-43-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:34:13-36
+43-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:34:13-36
 44            <intent-filter>
-44-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:35:13-39:29
+44-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:35:13-39:29
 45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:36:17-69
-45-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:36:25-66
+45-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:36:17-69
+45-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:36:25-66
 46
 47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:38:17-77
-47-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:38:27-74
+47-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:38:17-77
+47-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:38:27-74
 48            </intent-filter>
 49        </activity>
 50
 51        <meta-data
-51-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:42:9-44:59
+51-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:42:9-44:59
 52            android:name="com.parse.SERVER_URL"
-52-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:43:13-48
+52-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:43:13-48
 53            android:value="@string/back4app_server_url" />
-53-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:44:13-56
+53-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:44:13-56
 54        <meta-data
-54-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:45:9-47:55
+54-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:45:9-47:55
 55            android:name="com.parse.APPLICATION_ID"
-55-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:46:13-52
+55-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:46:13-52
 56            android:value="@string/back4app_app_id" />
-56-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:47:13-52
+56-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:47:13-52
 57        <meta-data
-57-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:48:9-50:59
+57-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:48:9-50:59
 58            android:name="com.parse.CLIENT_KEY"
-58-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:49:13-48
+58-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:49:13-48
 59            android:value="@string/back4app_client_key" />
-59-->C:\Users\levpe\Documents\GitHub\Team-CC\FoundIt\app\src\main\AndroidManifest.xml:50:13-56
+59-->C:\Users\phupr\StudioProjects\Team-C\FoundIt\app\src\main\AndroidManifest.xml:50:13-56
 60    </application>
 61
 62</manifest>

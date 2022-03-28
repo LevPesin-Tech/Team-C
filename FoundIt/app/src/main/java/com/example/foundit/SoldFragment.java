@@ -1,64 +1,50 @@
 package com.example.foundit;
 
-import android.os.Bundle;
+        import android.os.Bundle;
 
-import androidx.fragment.app.Fragment;
+        import androidx.fragment.app.Fragment;
+        import androidx.recyclerview.widget.GridLayoutManager;
+        import androidx.recyclerview.widget.LinearLayoutManager;
+        import androidx.recyclerview.widget.RecyclerView;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+        import android.view.LayoutInflater;
+        import android.view.View;
+        import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link SoldFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+        import java.lang.reflect.Array;
+        import java.util.ArrayList;
+
+
 public class SoldFragment extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
 
     public SoldFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment SoldFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static SoldFragment newInstance(String param1, String param2) {
-        SoldFragment fragment = new SoldFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sold, container, false);
+        ArrayList<Product> products = new ArrayList<>();
+
+        //TODO: add products from database to the arraylist for display
+        //Sample code below. Uncomment to see output.
+        /*
+        products.add(new Product("title1","author1", "isbn1","seller1","condition1",12));
+        products.add(new Product("title2","author2", "isbn2","seller2","condition2",30,"https://www.bookbaby.com/Images/textbook-thumb-ustrade.webp"));
+        products.add(new Product("title3","author3", "isbn3","seller3","condition3",25,"https://www.apologia.com/wp-content/uploads/2021/01/GeneralSci3-Softcover.jpg"));
+        products.add(new Product("title4","author4", "isbn4","seller4","condition4",31,"https://shop.aap.org/globalassets/inriver/resources/11212-NRP336_Paperback.png"));
+        products.add(new Product("title5","author5", "isbn5","seller5","condition5",14,"https://cdn-tp2.mozu.com/16833-25855/cms/25855/files/30fe59d6-1a88-4ab7-9f08-832f5cdec8f2?max=350&quality=75&_mzcb=_1639638525565"));
+        */
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.fragment_sold, container, false);
+        RecyclerView soldView = view.findViewById(R.id.soldRecView);
+
+        RecViewAdapter adapter = new RecViewAdapter(view.getContext());
+        adapter.setProducts(products);
+
+        soldView.setAdapter(adapter);
+        soldView.setLayoutManager(new GridLayoutManager(this.getContext(), 2));
+        return view;
     }
+
 }

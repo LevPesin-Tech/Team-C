@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -14,8 +15,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.imageview.ShapeableImageView;
 
 public class MainMenuActivity extends AppCompatActivity {
-    private Button searchBttn, histBttn;
+    private Button searchBttn, histBttn, addBttn, logOutBttn;
     private ShapeableImageView iitWallpaper, userAvatar;
+    private ImageButton settingBttn;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -27,7 +29,8 @@ public class MainMenuActivity extends AppCompatActivity {
         searchBttn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainMenuActivity.this, "Search function coming soon...", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(view.getContext(), SearchActivity.class);
+                startActivity(i);
             }
         });
 
@@ -35,13 +38,40 @@ public class MainMenuActivity extends AppCompatActivity {
         histBttn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainMenuActivity.this, "History function coming soon...", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(view.getContext(), HistoryActivity.class);
+                startActivity(i);
+            }
+        });
+
+        addBttn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(view.getContext(), ListingPage.class);
+                startActivity(i);
+            }
+        });
+
+        settingBttn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(view.getContext(), SettingActivity.class);
+                startActivity(i);
+            }
+        });
+
+        logOutBttn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO: log user out of database
+                Intent i = new Intent(view.getContext(), MainActivity.class);
+                startActivity(i);
             }
         });
 
         iitWallpaper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //TODO: add function to allow user change wallpaper
                 Toast.makeText(MainMenuActivity.this, "You cannot change wallpaper yet...", Toast.LENGTH_SHORT).show();
             }
         });
@@ -49,6 +79,7 @@ public class MainMenuActivity extends AppCompatActivity {
         userAvatar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //TODO: add function to allow user change avatar
                 Toast.makeText(MainMenuActivity.this, "You cannot change avatar yet...", Toast.LENGTH_SHORT).show();
             }
         });
@@ -59,6 +90,9 @@ public class MainMenuActivity extends AppCompatActivity {
         histBttn = findViewById(R.id.histBttn);
         iitWallpaper = findViewById(R.id.iitWallpaper);
         userAvatar =  findViewById(R.id.userAvatar);
+        addBttn = findViewById(R.id.addListBttn);
+        logOutBttn = findViewById(R.id.logoutBttn);
+        settingBttn = findViewById(R.id.settingBttn);
     }
 
     public void Listing(View v){

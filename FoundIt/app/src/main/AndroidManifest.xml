@@ -18,19 +18,19 @@
             android:exported="false" />
         <activity
             android:name=".HistoryActivity"
-            android:exported="false" />
+            android:exported="false" /> <!-- android:name=".HistoryActivity" -->
         <activity
             android:name=".TransactionActivity"
             android:exported="false" />
         <activity
             android:name=".SearchActivity"
             android:exported="false" />
-        <activity android:name=".MainMenuActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".ListingPage" />
         <activity android:name=".ConfirmationActivity" />
-        <activity android:name=".SignUp"/>
+        <activity android:name=".SignUp" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainMenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

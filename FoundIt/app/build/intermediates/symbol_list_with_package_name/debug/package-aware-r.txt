@@ -27,12 +27,19 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fragment_fast_out_extra_slow_in
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
+animator fragment_close_enter
+animator fragment_close_exit
+animator fragment_fade_enter
+animator fragment_fade_exit
+animator fragment_open_enter
+animator fragment_open_exit
 animator linear_indeterminate_line1_head_interpolator
 animator linear_indeterminate_line1_tail_interpolator
 animator linear_indeterminate_line2_head_interpolator
@@ -1654,6 +1661,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_account_circle
 drawable ic_back_arrow
+drawable ic_baseline_settings_24
 drawable ic_checkmark
 drawable ic_clock_black_24dp
 drawable ic_edit
@@ -1666,6 +1674,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_paypal_logo_wine
 drawable ic_search
+drawable ic_setting
 drawable logofirst
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1796,7 +1805,7 @@ id beginning
 id blocking
 id bookAuthor
 id bookImage
-id booktitle
+id bookTitle
 id bottom
 id bounce
 id button
@@ -1812,7 +1821,6 @@ id chains
 id checkImg
 id checkbox
 id checked
-id checkoutItem
 id checkoutTxt
 id chip
 id chip1
@@ -1903,8 +1911,10 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -1940,6 +1950,7 @@ id institutionWarning
 id invisible
 id inward
 id italic
+id item
 id item1
 id item2
 id item3
@@ -2058,7 +2069,8 @@ id priceTxt
 id productRecView
 id progress_circular
 id progress_horizontal
-id purchasedList
+id purchasedRecView
+id purchasedtab
 id radio
 id ratio
 id rePasswordEdt
@@ -2101,6 +2113,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id seller
+id settingBttn
 id settingTxt
 id shortcut
 id showCustom
@@ -2116,7 +2129,10 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id soldRecView
+id soldtab
 id spacer
+id special_effects_controller_view_tag
 id spinner
 id spline
 id split_action_bar
@@ -2138,6 +2154,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id tabLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2203,7 +2220,11 @@ id useLogo
 id userAvatar
 id view_offset_helper
 id view_tree_lifecycle_owner
+id view_tree_saved_state_registry_owner
+id view_tree_view_model_store_owner
+id viewpager
 id visible
+id visible_removing_fragment_view_tag
 id withText
 id withinBounds
 id wrap
@@ -2278,7 +2299,6 @@ layout activity_search
 layout activity_setting
 layout activity_sign_up
 layout activity_transaction
-layout checkout_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2297,6 +2317,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_purchased
 layout fragment_sold
+layout item_layout
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3263,6 +3284,8 @@ styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
+styleable Fragment android_name android_id android_tag
+styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc brightness contrast crossfade overlay round roundPercent saturation warmth

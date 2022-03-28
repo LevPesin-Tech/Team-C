@@ -30,8 +30,10 @@ public class SignUp extends AppCompatActivity {
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!personName.getText().toString().isEmpty() && !emailAddress.getText().toString().isEmpty() && ! institution.getText().toString().isEmpty()
-                        && !password.getText().toString().isEmpty() && !passwordReEnt.getText().toString().isEmpty()) {
+                if (validate()){
+                    setInvisible();
+                //if (!personName.getText().toString().isEmpty() && !emailAddress.getText().toString().isEmpty() && ! institution.getText().toString().isEmpty()
+                       // && !password.getText().toString().isEmpty() && !passwordReEnt.getText().toString().isEmpty()) {
                     ParseUser user = new ParseUser();
                     user.setUsername(emailAddress.getText().toString());
                     user.setPassword(password.getText().toString());
@@ -39,29 +41,31 @@ public class SignUp extends AppCompatActivity {
                         @Override
                         public void done(ParseException e) {
                             if (e==null) {
-                                Toast.makeText(getApplicationContext(), "Sign Up Successful", Toast.LENGTH_LONG).show();
+                                //Toast.makeText(getApplicationContext(), "Sign Up Successful", Toast.LENGTH_LONG).show();
+                                Intent i = new Intent(v.getContext(), MainMenuActivity.class);
+                                startActivity(i);
                             } else {
                                 Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
                             }
                         }
                     });
                 }
+
             }
         });
     }
 //    public void signUp(View v){
 //        if (validate()) {
 //            setInvisible();
-//            //TODO: add the inputs to database
 //            Intent i = new Intent(this, MainMenuActivity.class);
 //            startActivity(i);
 //        }
 //    }
 //
-//    public void back(View v){
-//        Intent i = new Intent(this, MainActivity.class);
-//        startActivity(i);
-//    }
+    public void back(View v){
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+    }
 
     private void initViews(){
         signUpButton = findViewById(R.id.signsignUpButton);
@@ -75,43 +79,44 @@ public class SignUp extends AppCompatActivity {
         emailWarning = findViewById(R.id.emailWarning);
         passwordWarning = findViewById(R.id.passwordWarning);
         rePasswordWarning= findViewById(R.id.rePasswordWarning);
+        setInvisible();
     }
 
-//    private boolean validate(){
-//        if(personName.getText().toString().equals("")){
-//            nameWarning.setVisibility(View.VISIBLE);
-//            nameWarning.setText("enter your name");
-//            return false;
-//        }
-//        if(institution.getText().toString().equals("")){
-//            institutionWarning.setVisibility(View.VISIBLE);
-//            institutionWarning.setText("enter your institution");
-//            return false;
-//        }
-//        if(emailAddress.getText().toString().equals("")){
-//            emailWarning.setVisibility(View.VISIBLE);
-//            emailWarning.setText("enter your email address");
-//            return false;
-//        }
-//        //TODO: add condition to check if email address already exist
-//        if(password.getText().toString().equals("")){
-//            passwordWarning.setVisibility(View.VISIBLE);
-//            passwordWarning.setText("enter your password");
-//            return false;
-//        }
-//        if(!password.getText().toString().equals(passwordReEnt.getText().toString())){
-//            rePasswordWarning.setVisibility(View.VISIBLE);
-//            rePasswordWarning.setText("password does not match");
-//            return false;
-//        }
-//        return true;
-//    }
-//
-//    private void setInvisible(){
-//        nameWarning.setVisibility(View.GONE);
-//        institutionWarning.setVisibility(View.GONE);
-//        emailWarning.setVisibility(View.GONE);
-//        passwordWarning.setVisibility(View.GONE);
-//        rePasswordWarning.setVisibility(View.GONE);
-//    }
+    private boolean validate(){
+        if(personName.getText().toString().equals("")){
+            nameWarning.setVisibility(View.VISIBLE);
+            nameWarning.setText("enter your name");
+            return false;
+        }
+        if(institution.getText().toString().equals("")){
+            institutionWarning.setVisibility(View.VISIBLE);
+            institutionWarning.setText("enter your institution");
+            return false;
+        }
+        if(emailAddress.getText().toString().equals("")){
+            emailWarning.setVisibility(View.VISIBLE);
+            emailWarning.setText("enter your email address");
+            return false;
+        }
+       //TODO: add condition to check if email address already exist
+        if(password.getText().toString().equals("")){
+            passwordWarning.setVisibility(View.VISIBLE);
+            passwordWarning.setText("enter your password");
+            return false;
+        }
+        if(!password.getText().toString().equals(passwordReEnt.getText().toString())){
+            rePasswordWarning.setVisibility(View.VISIBLE);
+            rePasswordWarning.setText("password does not match");
+            return false;
+        }
+        return true;
+    }
+
+    private void setInvisible(){
+        nameWarning.setVisibility(View.GONE);
+        institutionWarning.setVisibility(View.GONE);
+        emailWarning.setVisibility(View.GONE);
+        passwordWarning.setVisibility(View.GONE);
+        rePasswordWarning.setVisibility(View.GONE);
+    }
 }

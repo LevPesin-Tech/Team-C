@@ -11,8 +11,8 @@
         android:id="@+id/imageView3"
         android:layout_width="353dp"
         android:layout_height="259dp"
-        android:layout_marginStart="40dp"
         android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logofirst" />
@@ -33,7 +33,6 @@
         android:id="@+id/loginButton"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:onClick="logIn"
         android:text="Log In"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
