@@ -50,6 +50,13 @@
 - We are not doing innovation day (4/29) instead we are doing to Audience Choice Competition - pitch competition day on (4/22)
 - 
 ## Week 12 ##
+- Make sure activities for audience choice and various other deadlines I shared in email are represented on your board
+- Aditya #38 in progress
+- Michael - created new items on the board #40, #43
+- Phu #41 in progress (completed #20, #36 and #37)
+- Saad #16 and #38 in progress
+- Sara #39 in progress (working on parse)
+
 
 ## Week 13 ##
 
