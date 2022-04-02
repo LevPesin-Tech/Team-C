@@ -16,7 +16,6 @@
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,16 +33,17 @@
 
     <Button
         android:id="@+id/returnBttn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
         android:layout_marginTop="550dp"
         android:onClick="ret"
         android:text="Return to main menu"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <!--<TextView
         android:id="@+id/textView2"
         android:layout_width="281dp"
         android:layout_height="124dp"
@@ -55,18 +55,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+-->
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="264dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="299dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/confirm_message"
         android:textColor="@color/black"
-        android:textSize="14dp"
+        android:textSize="16dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/thankstxt" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

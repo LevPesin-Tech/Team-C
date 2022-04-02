@@ -4,16 +4,24 @@
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_dollar.png.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xhdpi\\ic_dollar.png"
+    },
+    {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_search.png.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_account_circle.png.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_account_circle.png"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_account_circle.png.flat",
-        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_account_circle.png"
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_dollar.xml.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-anydpi\\ic_dollar.xml"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
@@ -32,6 +40,10 @@
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_dollar.png.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_dollar.png"
+    },
+    {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_search.png.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
     },
@@ -46,6 +58,10 @@
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_dollar.png.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-mdpi\\ic_dollar.png"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_checkmark.png.flat",
@@ -160,12 +176,12 @@
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-hdpi\\ic_edit.png"
     },
     {
-        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_edit.png.flat",
-        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_edit.png"
-    },
-    {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_setting.png.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_edit.png.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xxhdpi\\ic_edit.png"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sold.xml.flat",
@@ -178,6 +194,10 @@
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_dollar.png.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-hdpi\\ic_dollar.png"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_edit.png.flat",
@@ -230,6 +250,10 @@
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_setting.png.flat",
         "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xhdpi\\ic_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi_ic_image.xml.flat",
+        "source": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-anydpi\\ic_image.xml"
     },
     {
         "merged": "C:\\Users\\phupr\\StudioProjects\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_account_circle.png.flat",

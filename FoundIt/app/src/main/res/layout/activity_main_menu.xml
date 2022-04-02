@@ -11,21 +11,21 @@
         android:id="@+id/logoutBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
         android:layout_marginTop="26dp"
+        android:backgroundTint="#6EB8D8"
         android:text="Log out"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="7dp"
-        android:backgroundTint="#6EB8D8"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_back_arrow" />
     <RelativeLayout
+        android:id="@+id/backgroundLayout"
         android:layout_width="match_parent"
         android:layout_height="230dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logoutBttn"
-        android:layout_marginTop="15dp"
-        android:id="@+id/backgroundLayout">
+        app:layout_constraintTop_toBottomOf="@id/logoutBttn">
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/iitWallpaper"
@@ -111,17 +111,17 @@
         app:layout_constraintTop_toBottomOf="@id/userAvatar" />
 
     <ImageButton
+        android:id="@+id/settingBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/settingBttn"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#6EB8D9"
         app:layout_constraintBottom_toTopOf="@+id/backgroundLayout"
         app:layout_constraintEnd_toEndOf="@+id/backgroundLayout"
         app:layout_constraintStart_toEndOf="@+id/logoutBttn"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="230dp"
-        android:layout_marginTop="15dp"
         app:srcCompat="@drawable/ic_baseline_settings_24"
-        android:backgroundTint="#6EB8D9"
         />
 
 

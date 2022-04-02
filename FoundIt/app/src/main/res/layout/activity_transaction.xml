@@ -12,30 +12,31 @@
         android:id="@+id/backBttn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
-        app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="7dp"
+        android:layout_marginTop="26dp"
         android:backgroundTint="#6EB8D9"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_back_arrow" />
     <Spinner
         android:id="@+id/handOffSpinner"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+        app:layout_constraintTop_toTopOf="@+id/guideline4"/>
 
     <Spinner
         android:id="@+id/deliverDaySpinner"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/handOffSpinner" />
 
@@ -43,10 +44,10 @@
         android:id="@+id/deliverTimeSpinner"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/deliverDaySpinner" />
 
@@ -65,10 +66,9 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/deliverTimeSpinner"
-        app:layout_constraintVertical_bias="0.255" />
+        app:layout_constraintVertical_bias="0.155" />
 
     <TextView
         android:id="@+id/priceTxt"
@@ -84,22 +84,23 @@
         android:id="@+id/checkoutTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Checkout"
-        android:textStyle="bold"
-        android:textSize="40dp"
         android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:text="Checkout"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         app:layout_constraintBottom_toTopOf="@id/deliverDaySpinner"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkoutTxt"
-        android:layout_marginTop="5dp">
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/productRecView"

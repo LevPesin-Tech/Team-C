@@ -46,7 +46,7 @@ public class MainMenuActivity extends AppCompatActivity {
         addBttn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(view.getContext(), ListingPage.class);
+                Intent i = new Intent(view.getContext(), ListingActivity.class);
                 startActivity(i);
             }
         });
@@ -95,8 +95,8 @@ public class MainMenuActivity extends AppCompatActivity {
         settingBttn = findViewById(R.id.settingBttn);
     }
 
-    public void Listing(View v){
-        Intent i = new Intent(this, ListingPage.class);
-        startActivity(i);
-    }
+    //public void Listing(View v){
+   //     Intent i = new Intent(this, ListingPage.class);
+  //      startActivity(i);
+  //  }
 }

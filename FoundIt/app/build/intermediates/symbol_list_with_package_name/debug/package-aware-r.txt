@@ -1664,7 +1664,9 @@ drawable ic_back_arrow
 drawable ic_baseline_settings_24
 drawable ic_checkmark
 drawable ic_clock_black_24dp
+drawable ic_dollar
 drawable ic_edit
+drawable ic_image
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1713,11 +1715,15 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id AddBook
+id AddBttn
+id AddListTxt
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
 id ISBN
+id ISBNEdt
+id ISBNErr
 id META
 id NO_DEBUG
 id PaypalBttn
@@ -1783,6 +1789,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addBookTxt
 id addListBttn
 id alertTitle
 id aligned
@@ -1792,6 +1799,8 @@ id animateToEnd
 id animateToStart
 id asConfigured
 id async
+id authorEdt
+id authorErr
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -1804,11 +1813,11 @@ id beginOnFirstDraw
 id beginning
 id blocking
 id bookAuthor
+id bookErr
 id bookImage
 id bookTitle
 id bottom
 id bounce
-id button
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1835,6 +1844,8 @@ id clip_vertical
 id clockwise
 id collapseActionView
 id condition
+id conditionErr
+id conditionSpnr
 id confirm_button
 id container
 id content
@@ -1882,10 +1893,6 @@ id easeOut
 id editAvatar
 id editInstitution
 id editPassword
-id editTextTextPersonName2
-id editTextTextPersonName3
-id editTextTextPersonName4
-id editTextTextPersonName5
 id edit_query
 id elastic
 id emailAddress
@@ -2059,12 +2066,15 @@ id paypalImg
 id peekHeight
 id percent
 id personNameEdt
+id picErr
 id pickupLinearLayout
 id pickupTxt
 id pin
 id position
 id postLayout
 id price
+id priceEdt
+id priceErr
 id priceTxt
 id productRecView
 id progress_circular
@@ -2077,6 +2087,7 @@ id rePasswordEdt
 id rePasswordWarning
 id rectangles
 id relLayout
+id relativeLayout
 id returnBttn
 id reverseSawtooth
 id right
@@ -2133,7 +2144,6 @@ id soldRecView
 id soldtab
 id spacer
 id special_effects_controller_view_tag
-id spinner
 id spline
 id split_action_bar
 id spread
@@ -2180,9 +2190,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
-id textView2
-id textView3
 id textView4
 id text_input_end_icon
 id text_input_error_icon
@@ -2197,6 +2204,7 @@ id thankstxt
 id time
 id title
 id titleDividerNoCustom
+id titleEdt
 id title_template
 id toggle
 id top

@@ -10,6 +10,7 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name="com.example.foundit.App"
@@ -27,7 +28,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.foundit.HistoryActivity"
-            android:exported="false" /> <!-- android:name=".HistoryActivity" -->
+            android:exported="false" />
         <activity
             android:name="com.example.foundit.TransactionActivity"
             android:exported="false" />
@@ -35,11 +36,11 @@
             android:name="com.example.foundit.SearchActivity"
             android:exported="false" />
         <activity android:name="com.example.foundit.MainMenuActivity" />
-        <activity android:name="com.example.foundit.ListingPage" />
+        <activity android:name="com.example.foundit.MainActivity" />
         <activity android:name="com.example.foundit.ConfirmationActivity" />
         <activity android:name="com.example.foundit.SignUp" />
         <activity
-            android:name="com.example.foundit.MainActivity"
+            android:name="com.example.foundit.ListingActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

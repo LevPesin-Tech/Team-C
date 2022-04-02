@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PurchasedFragment"
     android:background="#63c5da"
-    android:padding="10dp">
+    android:padding="10dp"
+    tools:context=".PurchasedFragment">
 
     <!-- TODO: Update blank fragment layout -->
 <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/purchasedRecView"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/purchasedRecView"/>
+    android:layout_height="wrap_content"/>
 
 </FrameLayout>
