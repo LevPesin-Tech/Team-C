@@ -57,8 +57,13 @@
 - Saad #16 and #38 in progress
 - Sara #39 in progress (working on parse)
 
-
 ## Week 13 ##
+- April 15th submit form and 90 second video for audience choice award
+- April 19th - dry run of class presentation and demo
+- April  22nd - audience choice and broader pitch event from 2:00 PM to 5:00 PM - This mandatory and required
+- April 26th - final class presentation and demo
+- Make sure you create your video as an .mp4
+- Make sure to pull, push and merge
 
 ## Week 14 ##
 
