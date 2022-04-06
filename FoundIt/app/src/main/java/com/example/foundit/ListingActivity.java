@@ -10,13 +10,22 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageSwitcher;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.ViewSwitcher;
+
+import com.parse.ParseException;
+import com.parse.ParseInstallation;
+import com.parse.ParseObject;
+import com.parse.ParseUser;
+import com.parse.SaveCallback;
+import com.parse.SignUpCallback;
 
 import java.util.ArrayList;
 
@@ -29,10 +38,12 @@ public class ListingActivity extends AppCompatActivity {
     //int position = 0;
     private Spinner condition;
     private boolean picChanged= false;
+    Button addButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listing_page);
+        ParseInstallation.getCurrentInstallation().saveInBackground();
         initViews();
 
         bookUri.setOnClickListener(new View.OnClickListener() {
@@ -42,8 +53,33 @@ public class ListingActivity extends AppCompatActivity {
                 startActivityForResult(galleryIntent, PICK_IMAGE_CODE);
             }
         });
-    }
 
+//        addButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                    //if (!personName.getText().toString().isEmpty() && !emailAddress.getText().toString().isEmpty() && ! institution.getText().toString().isEmpty()
+//                    // && !password.getText().toString().isEmpty() && !passwordReEnt.getText().toString().isEmpty()) {
+//                    ParseObject book = new ParseObject("Book");
+//                    book.put("user", ParseUser.getCurrentUser().getUsername());
+//                    book.put("title", title.getText().toString());
+//                    book.put("author", author.getText().toString());
+//                    book.put("isbn", isbn.getText().toString());
+//                    book.put("price", price.getText().toString());
+//                    book.saveInBackground(new SaveCallback() {
+//                        @Override
+//                        public void done(ParseException e) {
+//                            if (e==null) {
+//                                Toast.makeText(getApplicationContext(), "Your listing is published", Toast.LENGTH_LONG).show();
+//                                Intent i = new Intent(view.getContext(), ConfirmationActivity.class);
+//                                startActivity(i);
+//                            } else {
+//                                Toast.makeText(getApplicationContext(), "Try Again", Toast.LENGTH_SHORT).show();
+//                            }
+//                        }
+//                    });
+//               }
+//        });
+    }
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == PICK_IMAGE_CODE){
