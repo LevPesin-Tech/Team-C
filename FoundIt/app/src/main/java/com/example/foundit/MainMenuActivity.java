@@ -7,14 +7,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.imageview.ShapeableImageView;
+import com.parse.ParseUser;
 
 public class MainMenuActivity extends AppCompatActivity {
+    private TextView helloTxt;
     private Button searchBttn, histBttn, addBttn, logOutBttn;
     private ShapeableImageView iitWallpaper, userAvatar;
     private ImageButton settingBttn;
@@ -93,6 +96,8 @@ public class MainMenuActivity extends AppCompatActivity {
         addBttn = findViewById(R.id.addListBttn);
         logOutBttn = findViewById(R.id.logoutBttn);
         settingBttn = findViewById(R.id.settingBttn);
+        helloTxt = findViewById(R.id.helloTxt);
+        //helloTxt.setText("Hello "+ ParseUser.getCurrentUser().getUsername());
     }
 
     //public void Listing(View v){

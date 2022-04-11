@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\levpe\\Documents\\GitHub\\Team-CC\\FoundIt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\levpe\\.gradle\\caches\\transforms-3\\bfcbf161df86e8959e8196b0cb0afd0e\\transformed\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\phupr\\.gradle\\caches\\transforms-3\\f39fc82983ddacf7f8a9d0255c590db4\\transformed\\appcompat-1.2.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

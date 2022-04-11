@@ -38,7 +38,7 @@ public class ListingActivity extends AppCompatActivity {
     //int position = 0;
     private Spinner condition;
     private boolean picChanged= false;
-    Button addButton;
+    private Button addButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,31 +54,36 @@ public class ListingActivity extends AppCompatActivity {
             }
         });
 
-//        addButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                    //if (!personName.getText().toString().isEmpty() && !emailAddress.getText().toString().isEmpty() && ! institution.getText().toString().isEmpty()
-//                    // && !password.getText().toString().isEmpty() && !passwordReEnt.getText().toString().isEmpty()) {
-//                    ParseObject book = new ParseObject("Book");
-//                    book.put("user", ParseUser.getCurrentUser().getUsername());
-//                    book.put("title", title.getText().toString());
-//                    book.put("author", author.getText().toString());
-//                    book.put("isbn", isbn.getText().toString());
-//                    book.put("price", price.getText().toString());
-//                    book.saveInBackground(new SaveCallback() {
-//                        @Override
-//                        public void done(ParseException e) {
-//                            if (e==null) {
-//                                Toast.makeText(getApplicationContext(), "Your listing is published", Toast.LENGTH_LONG).show();
-//                                Intent i = new Intent(view.getContext(), ConfirmationActivity.class);
-//                                startActivity(i);
-//                            } else {
-//                                Toast.makeText(getApplicationContext(), "Try Again", Toast.LENGTH_SHORT).show();
-//                            }
-//                        }
-//                    });
-//               }
-//        });
+        addButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (validate()){
+                    setInvisible();
+                    ParseObject book = new ParseObject("book");
+
+                    //TODO: THE LINE BELOW IS GENERATING BUG
+                    book.put("user", ParseUser.getCurrentUser().getUsername());
+
+                    book.put("title", title.getText().toString());
+                    book.put("author", author.getText().toString());
+                    book.put("isbn", isbn.getText().toString());
+                    book.put("price", price.getText().toString());
+                    book.saveInBackground(new SaveCallback() {
+                        @Override
+                        public void done(ParseException e) {
+                            if (e == null) {
+                                Intent i = new Intent(view.getContext(), ConfirmationActivity.class);
+                                startActivity(i);
+                            } else {
+                                Toast.makeText(getApplicationContext(), "Try Again", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    });
+                }
+            }
+        });
+
+
     }
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -108,6 +113,7 @@ public class ListingActivity extends AppCompatActivity {
         condErr = findViewById(R.id.conditionErr);
         picErr = findViewById(R.id.picErr);
         isbnErr = findViewById(R.id.ISBNErr);
+        addButton = findViewById(R.id.AddBttn);
         setInvisible();
     }
 
@@ -139,12 +145,12 @@ public class ListingActivity extends AppCompatActivity {
             authorErr.setText("Enter Author's name");
             return false;
         }
-        if(isbn.getText().toString()!=null){
+        if(!isbn.getText().toString().equals("")){
             setInvisible();
             try {
                 Double.parseDouble(isbn.getText().toString());
             }
-            catch(NumberFormatException e) {
+            catch(NumberFormatException nfe) {
                 isbnErr.setVisibility(View.VISIBLE);
                 isbnErr.setText("Enter number only");
                 return false;
