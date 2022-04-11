@@ -61,7 +61,7 @@ public class ListingActivity extends AppCompatActivity {
                     setInvisible();
                     ParseObject book = new ParseObject("book");
 
-                    //TODO: THE LINE BELOW IS GENERATING BUG
+
                     book.put("user", ParseUser.getCurrentUser().getUsername());
 
                     book.put("title", title.getText().toString());
