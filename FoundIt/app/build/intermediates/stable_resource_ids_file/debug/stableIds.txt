@@ -1,3 +1,4 @@
+com.example.foundit:layout/activity_book_details = 0x7f0c0083
 com.example.foundit:styleable/TextAppearance = 0x7f120079
 com.example.foundit:style/Widget.AppCompat.Light.PopupMenu.Overflow = 0x7f110237
 com.example.foundit:id/search_edit_frame = 0x7f090190
