@@ -20,7 +20,7 @@
             android:name=".HistoryActivity"
             android:exported="false" />
         <activity
-            android:name=".TransactionActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".SearchActivity"
@@ -30,7 +30,7 @@
         <activity android:name=".ConfirmationActivity" />
         <activity android:name=".SignUp" />
         <activity
-            android:name=".MainActivity"
+            android:name=".TransactionActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

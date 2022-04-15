@@ -25,28 +25,36 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="15dp"
+        android:entries="@array/delivery"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4"/>
 
-    <Spinner
+    <Button
         android:id="@+id/deliverDaySpinner"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="15dp"
+        android:textColor="@color/black"
+        android:text="JAN 01 2020"
+        android:onClick="openDatePicker"
+        style="@style/Widget.AppCompat.Spinner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/handOffSpinner" />
 
-    <Spinner
+    <Button
         android:id="@+id/deliverTimeSpinner"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="15dp"
+        android:textColor="@color/black"
+        android:text="12:00 AM"
+        style="@style/Widget.AppCompat.Spinner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/deliverDaySpinner" />
@@ -64,11 +72,10 @@
         android:layout_height="wrap_content"
         android:text="Total:"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/deliverTimeSpinner"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintTop_toBottomOf="@+id/handOffSpinner"
+        android:layout_marginTop="180dp"/>
 
     <TextView
         android:id="@+id/priceTxt"
@@ -117,21 +124,17 @@
         android:layout_height="60dp"
         android:layout_marginBottom="80dp"
         android:backgroundTint="#ffcc00"
+        android:layout_marginTop="10dp"
         android:drawableTop="@drawable/ic_paypal_logo_wine"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/totalCost"
-        app:layout_constraintVertical_bias="1.0"
         app:shapeAppearanceOverlay="@style/Circular" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/paypalImg"
         android:layout_width="250dp"
         android:layout_height="80dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"

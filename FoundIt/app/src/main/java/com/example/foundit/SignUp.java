@@ -100,6 +100,11 @@ public class SignUp extends AppCompatActivity {
             emailWarning.setText("enter your email address");
             return false;
         }
+        if(!emailAddress.getText().toString().substring(emailAddress.getText().toString().length()-4).equals(".edu")){
+            emailWarning.setVisibility(View.VISIBLE);
+            emailWarning.setText("enter your institution's email address");
+            return false;
+        }
        //TODO: add condition to check if email address already exist
         if(password.getText().toString().equals("")){
             passwordWarning.setVisibility(View.VISIBLE);

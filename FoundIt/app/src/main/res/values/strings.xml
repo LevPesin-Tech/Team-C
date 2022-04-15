@@ -12,6 +12,11 @@
         <item>Fair</item>
         <item>Poor</item>
     </string-array>
+    <string-array name="delivery">
+        <item>--Please select delivery option--</item>
+        <item>Shipping</item>
+        <item>On campus Delivery</item>
+    </string-array>
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
     <string name="back4app_app_id">MMHqflrx7nVCs3B2vCWc1roX0cwQPNc7Sc81CUrT</string>
     <string name="back4app_client_key">MBZPjC3xuxGiBZLAZCG7RY73tyU7RL9Oynyz8h85</string>
