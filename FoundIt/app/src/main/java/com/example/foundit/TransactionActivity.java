@@ -37,7 +37,7 @@ public class TransactionActivity extends AppCompatActivity {
     private EditText name, address;
     private Button dateBttn, timeBttn;
     private int hour, min;
-    private TextView price;
+    private TextView price, deliveryErr;
     private NumberFormat format = NumberFormat.getCurrencyInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -201,6 +201,7 @@ public class TransactionActivity extends AppCompatActivity {
         delivery = findViewById(R.id.handOffSpinner);
         name = findViewById(R.id.nameEdt);
         address = findViewById(R.id.addressEdt);
+        deliveryErr = findViewById(R.id.deliveryTxt);
         setInvisible();
     }
 
@@ -218,5 +219,21 @@ public class TransactionActivity extends AppCompatActivity {
     public void back(View view) {
         Intent i = new Intent(this, SearchActivity.class);
         startActivity(i);
+    }
+
+    public void pay(View view) {
+        if (validate()) {
+            Intent i = new Intent(this, ConfirmationActivity.class);
+            startActivity(i);
+        }
+    }
+
+    private boolean validate(){
+        if (delivery.getSelectedItem().toString().equals("--Please select delivery option--")) {
+            deliveryErr.setVisibility(View.VISIBLE);
+            deliveryErr.setText("Please choose delivery option first");
+            return false;
+        }
+        return true;
     }
 }

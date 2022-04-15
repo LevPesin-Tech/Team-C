@@ -132,7 +132,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/totalCost"
-        app:shapeAppearanceOverlay="@style/Circular" />
+        app:shapeAppearanceOverlay="@style/Circular"
+        android:onClick="pay"/>
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/paypalImg"
@@ -175,6 +176,17 @@
         app:layout_constraintTop_toBottomOf="@id/nameEdt"
         android:visibility="gone"
         />
+
+    <TextView
+        android:id="@+id/deliveryTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/handOffSpinner"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"
+ />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
