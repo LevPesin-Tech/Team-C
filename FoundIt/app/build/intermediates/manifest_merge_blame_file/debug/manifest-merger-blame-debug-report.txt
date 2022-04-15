@@ -54,8 +54,8 @@
 31-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:21:13-37
 32        <activity
 32-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:22:9-24:40
-33            android:name="com.example.foundit.MainActivity"
-33-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:23:13-41
+33            android:name="com.example.foundit.TransactionActivity"
+33-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:23:13-48
 34            android:exported="false" />
 34-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:24:13-37
 35        <activity
@@ -78,8 +78,8 @@
 41-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:31:19-41
 42        <activity
 42-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:32:9-40:20
-43            android:name="com.example.foundit.TransactionActivity"
-43-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:33:13-48
+43            android:name="com.example.foundit.MainActivity"
+43-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:33:13-41
 44            android:exported="true" >
 44-->C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:34:13-36
 45            <intent-filter>

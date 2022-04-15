@@ -30,7 +30,7 @@
             android:name="com.example.foundit.HistoryActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.foundit.MainActivity"
+            android:name="com.example.foundit.TransactionActivity"
             android:exported="false" />
         <activity
             android:name="com.example.foundit.SearchActivity"
@@ -40,7 +40,7 @@
         <activity android:name="com.example.foundit.ConfirmationActivity" />
         <activity android:name="com.example.foundit.SignUp" />
         <activity
-            android:name="com.example.foundit.TransactionActivity"
+            android:name="com.example.foundit.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

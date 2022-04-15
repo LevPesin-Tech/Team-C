@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginTop="10dp"
+    android:elevation="5dp"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6EB8D9">
+
+        <ImageView
+            android:id="@+id/bookImage"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/bookImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="23dp"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/bookImage"
+            android:layout_below="@id/bookTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:text="Author"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/ISBN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bookAuthor"
+            android:layout_toRightOf="@+id/bookImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:text="ISBN"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/seller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ISBN"
+            android:layout_toRightOf="@+id/bookImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:text="seller name"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seller"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/bookImage"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:text="condition"
+            android:textSize="18sp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
