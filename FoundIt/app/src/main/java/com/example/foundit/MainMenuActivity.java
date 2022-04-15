@@ -97,7 +97,7 @@ public class MainMenuActivity extends AppCompatActivity {
         logOutBttn = findViewById(R.id.logoutBttn);
         settingBttn = findViewById(R.id.settingBttn);
         helloTxt = findViewById(R.id.helloTxt);
-        //helloTxt.setText("Hello "+ ParseUser.getCurrentUser().getUsername());
+        helloTxt.setText("Hello "+ ParseUser.getCurrentUser().getUsername());
     }
 
     //public void Listing(View v){
