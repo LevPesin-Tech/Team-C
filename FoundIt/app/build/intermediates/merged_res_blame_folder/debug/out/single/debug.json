@@ -8,12 +8,12 @@
         "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-mdpi\\ic_setting.png"
     },
     {
-        "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_dollar.png.flat",
-        "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-hdpi\\ic_dollar.png"
-    },
-    {
         "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_account_circle.png.flat",
         "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-xhdpi\\ic_account_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_dollar.png.flat",
+        "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-hdpi\\ic_dollar.png"
     },
     {
         "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_congratbackground.jpg.flat",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-anydpi-v24\\ic_checkmark.xml"
     },
     {
-        "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_confirmation.xml.flat",
@@ -42,10 +42,6 @@
     {
         "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_back_arrow.xml.flat",
         "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\drawable-anydpi-v24\\ic_back_arrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
-        "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\menu\\menu.xml"
     },
     {
         "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -250,10 +246,6 @@
     {
         "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_menu.xml.flat",
         "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_book_details.xml.flat",
-        "source": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\src\\main\\res\\layout\\activity_book_details.xml"
     },
     {
         "merged": "C:\\Users\\phupr\\OneDrive\\Documents\\GitHub\\Team-C\\FoundIt\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_setting.png.flat",

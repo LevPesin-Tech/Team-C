@@ -68,8 +68,6 @@ public class ListingActivity extends AppCompatActivity {
                     book.put("author", author.getText().toString());
                     book.put("isbn", isbn.getText().toString());
                     book.put("price", price.getText().toString());
-                    book.put("condition", condition.getSelectedItem().toString());
-                    //book.put("picture", bookUri);
                     book.saveInBackground(new SaveCallback() {
                         @Override
                         public void done(ParseException e) {
