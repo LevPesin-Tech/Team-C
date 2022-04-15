@@ -8,13 +8,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
@@ -29,6 +33,8 @@ import java.util.Date;
 
 public class TransactionActivity extends AppCompatActivity {
     private DatePickerDialog datePickerDialog;
+    private Spinner delivery;
+    private EditText name, address;
     private Button dateBttn, timeBttn;
     private int hour, min;
     private TextView price;
@@ -38,8 +44,30 @@ public class TransactionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction);
         initViews();
+        delivery.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if(delivery.getSelectedItem().toString().equals("Shipping")){
+                    setInvisible();
+                    name.setVisibility(View.VISIBLE);
+                    address.setVisibility(View.VISIBLE);
+
+                }
+                else if(delivery.getSelectedItem().toString().equals("On campus Delivery")){
+                    setInvisible();
+                    dateBttn.setVisibility(View.VISIBLE);
+                    timeBttn.setVisibility(View.VISIBLE);
+
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
         initDatePicker();
-        dateBttn.setText(getTodaysDate());
+        //dateBttn.setText(getTodaysDate());
 
         timeBttn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,7 +105,7 @@ public class TransactionActivity extends AppCompatActivity {
 
 
 
-        Product product = new Product("title1","author1", "isbn1","seller1","condition1",0,"https://images.routledge.com/common/jackets/crclarge/978041547/9780415479554.jpg");
+        Product product = new Product("Sample","sample", "sample","sample","sample",10,"https://images.routledge.com/common/jackets/crclarge/978041547/9780415479554.jpg");
         //TODO: add products from database to the arraylist for display
         //Sample code below. Change it accordingly
 
@@ -123,7 +151,7 @@ public class TransactionActivity extends AppCompatActivity {
 
 
     private String makeDateString(int day, int month, int year) {
-        return getMonthFormat(month) + " " + day + " " + year;
+        return getMonthFormat(month) + " " + day + ", " + year;
     }
 
     private String getMonthFormat(int month) {
@@ -170,9 +198,25 @@ public class TransactionActivity extends AppCompatActivity {
         dateBttn = findViewById(R.id.deliverDaySpinner);
         timeBttn = findViewById(R.id.deliverTimeSpinner);
         price = findViewById(R.id.priceTxt);
+        delivery = findViewById(R.id.handOffSpinner);
+        name = findViewById(R.id.nameEdt);
+        address = findViewById(R.id.addressEdt);
+        setInvisible();
     }
 
     public void openDatePicker(View view) {
         datePickerDialog.show();
+    }
+
+    private void setInvisible(){
+        name.setVisibility(View.GONE);
+        address.setVisibility(View.GONE);
+        timeBttn.setVisibility(View.GONE);
+        dateBttn.setVisibility(View.GONE);
+    }
+
+    public void back(View view) {
+        Intent i = new Intent(this, SearchActivity.class);
+        startActivity(i);
     }
 }

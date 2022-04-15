@@ -1792,6 +1792,7 @@ int id activity_chooser_view_content 0x7f09004b
 int id add 0x7f09004c
 int id addBookTxt 0x7f09004d
 int id addListBttn 0x7f09004e
+int id addressEdt 0x7f09020e
 int id alertTitle 0x7f09004f
 int id aligned 0x7f090050
 int id all 0x7f090051
@@ -2035,6 +2036,7 @@ int id mtrl_picker_text_input_range_start 0x7f09013e
 int id mtrl_picker_title_text 0x7f09013f
 int id mtrl_view_tag_bottom_padding 0x7f090140
 int id multiply 0x7f090141
+int id nameEdt 0x7f09020f
 int id nameTxt 0x7f090142
 int id nameWarning 0x7f090143
 int id navigation_header_container 0x7f090144

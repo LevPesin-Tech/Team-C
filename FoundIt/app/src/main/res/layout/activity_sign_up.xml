@@ -48,7 +48,6 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Institution"
-        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/institutionWarning" />
@@ -60,7 +59,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/emailWarning" />
