@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/AddBook"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#6EB8D9"
+tools:context=".BookActivity">
+
+<TextView
+    android:id="@+id/AddListTxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="30dp"
+    android:text="Book"
+    android:textSize="40dp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"/>
+<TextView
+    android:id="@+id/addBookTxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Book Details"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginTop="10dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/AddListTxt" />
+
+<ImageView
+    android:id="@+id/bookImage"
+    android:layout_width="180dp"
+    android:layout_height="180dp"
+    android:src="@drawable/ic_image"
+    android:layout_marginTop="15dp"
+    app:layout_constraintEnd_toEndOf="@+id/addBookTxt"
+    app:layout_constraintStart_toStartOf="@+id/addBookTxt"
+    app:layout_constraintTop_toBottomOf="@+id/picErr" />
+
+<EditText
+    android:id="@+id/bookTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="9"
+    android:hint="Title"
+    android:layout_marginTop="15dp"
+    android:inputType="textPersonName"
+    android:minHeight="48dp"
+    app:layout_constraintEnd_toEndOf="@+id/bookImage"
+    app:layout_constraintStart_toStartOf="@+id/bookImage"
+    app:layout_constraintTop_toBottomOf="@+id/bookErr" />
+
+<EditText
+    android:id="@+id/authorEdt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="9"
+    android:layout_marginTop="15dp"
+    android:hint="Author "
+    android:inputType="textPersonName"
+    android:minHeight="48dp"
+    app:layout_constraintEnd_toEndOf="@+id/bookTitle"
+    app:layout_constraintStart_toStartOf="@+id/bookTitle"
+    app:layout_constraintTop_toBottomOf="@+id/authorErr" />
+
+<EditText
+    android:id="@+id/ISBNEdt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="9"
+    android:hint="ISBN"
+    android:layout_marginTop="15dp"
+    android:inputType="textPersonName"
+    android:minHeight="48dp"
+    app:layout_constraintEnd_toEndOf="@+id/authorEdt"
+    app:layout_constraintStart_toStartOf="@+id/authorEdt"
+    app:layout_constraintTop_toBottomOf="@+id/ISBNErr"
+    />
+
+<EditText
+    android:id="@+id/priceEdt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="9"
+    android:hint="Price"
+    android:drawableLeft="@drawable/ic_dollar"
+    android:layout_marginTop="15dp"
+    android:inputType="textPersonName"
+    android:minHeight="48dp"
+    app:layout_constraintEnd_toEndOf="@+id/ISBNEdt"
+    app:layout_constraintStart_toStartOf="@+id/ISBNEdt"
+    app:layout_constraintTop_toBottomOf="@+id/priceErr" />
+
+<Spinner
+    android:id="@+id/conditionSpnr"
+    android:layout_width="188dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="15dp"
+    android:entries="@array/condition"
+    app:layout_constraintEnd_toEndOf="@+id/priceEdt"
+    app:layout_constraintStart_toStartOf="@+id/priceEdt"
+    app:layout_constraintTop_toBottomOf="@+id/conditionErr" />
+
+<Button
+    android:id="@+id/AddBttn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Add Listing"
+    android:onClick="Confpage"
+    android:layout_marginTop="15dp"
+    app:layout_constraintEnd_toEndOf="@+id/conditionSpnr"
+    app:layout_constraintStart_toStartOf="@+id/conditionSpnr"
+    app:layout_constraintTop_toBottomOf="@+id/conditionSpnr" />
+
+<ImageButton
+    android:id="@+id/backBttn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="7dp"
+    android:layout_marginTop="26dp"
+    android:backgroundTint="#6EB8D9"
+    android:onClick="back"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/ic_back_arrow" />
+
+<TextView
+    android:id="@+id/picErr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    android:textColor="#ff0000"
+    app:layout_constraintStart_toStartOf="@+id/bookImage"
+    app:layout_constraintTop_toBottomOf="@+id/addBookTxt"
+    android:visibility="gone"/>
+<TextView
+    android:id="@+id/bookErr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    app:layout_constraintStart_toStartOf="@+id/bookTitle"
+    app:layout_constraintTop_toBottomOf="@+id/bookImage"
+    android:textColor="#ff0000"
+    android:visibility="gone"/>
+
+<TextView
+    android:id="@+id/authorErr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    app:layout_constraintStart_toStartOf="@+id/authorEdt"
+    app:layout_constraintTop_toBottomOf="@+id/bookTitle"
+    android:textColor="#ff0000"
+    android:visibility="gone"/>
+
+<TextView
+    android:id="@+id/ISBNErr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    android:textColor="#ff0000"
+    app:layout_constraintStart_toStartOf="@+id/ISBNEdt"
+    app:layout_constraintTop_toBottomOf="@+id/authorEdt"
+    android:visibility="gone"/>
+
+<TextView
+    android:id="@+id/priceErr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    app:layout_constraintStart_toStartOf="@+id/priceEdt"
+    app:layout_constraintTop_toBottomOf="@+id/ISBNEdt"
+    tools:visibility="gone"
+    android:textColor="#ff0000"/>
+<TextView
+    android:id="@+id/conditionErr"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TextView"
+    android:visibility="gone"
+    app:layout_constraintStart_toStartOf="@+id/conditionSpnr"
+    app:layout_constraintTop_toBottomOf="@+id/priceEdt"
+
+    android:textColor="#ff0000"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
