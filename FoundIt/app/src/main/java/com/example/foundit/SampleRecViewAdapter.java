@@ -46,7 +46,7 @@ public class SampleRecViewAdapter extends RecyclerView.Adapter<SampleRecViewAdap
         holder.item.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //TODO: fill out what would happen if clicked on a book
+                //TODO: connect to product page
                 Intent i = new Intent(view.getContext(), TransactionActivity.class);
                 view.getContext().startActivity(i);
 
