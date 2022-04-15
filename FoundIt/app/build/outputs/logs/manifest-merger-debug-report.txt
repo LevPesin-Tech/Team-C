@@ -126,12 +126,12 @@ ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\
 		ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
 		ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:20:13-44
-activity#com.example.foundit.MainActivity
+activity#com.example.foundit.TransactionActivity
 ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
 		ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:23:13-41
+		ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:23:13-48
 activity#com.example.foundit.SearchActivity
 ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
@@ -154,12 +154,12 @@ activity#com.example.foundit.SignUp
 ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:31:9-44
 	android:name
 		ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:31:19-41
-activity#com.example.foundit.TransactionActivity
+activity#com.example.foundit.MainActivity
 ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:32:9-40:20
 	android:exported
 		ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:33:13-48
+		ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:33:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\phupr\OneDrive\Documents\GitHub\Team-C\FoundIt\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
