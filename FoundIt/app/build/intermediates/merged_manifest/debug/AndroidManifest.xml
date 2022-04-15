@@ -24,6 +24,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FoundIt" >
         <activity
+            android:name="com.example.foundit.Search"
+            android:exported="false" />
+        <activity
             android:name="com.example.foundit.SettingActivity"
             android:exported="false" />
         <activity
