@@ -66,5 +66,13 @@
 - Make sure to pull, push and merge
 
 ## Week 14 ##
+- Every team member needs to complete the peer review survey before the end of class - https://forms.gle/UFVs9smkmLVf7KRZ8
+- You should be using the presentation template that was provided.  This could easily be rebuilt from the PPD doc.
+- Are you using Google auth?  No, just checking for a login
+- Like the consistent color scheme
+- Logo is nice
+- Actual photos of books would be better for demo
+- Search needs to allow searching rather just have a book
+- Final presentation template: https://github.com/mschray/IPro497Sample/blob/main/Course%20Content/Final%20Presentation%20Template.pptx
 
 ## Week 15 ##
